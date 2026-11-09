@@ -1,0 +1,16 @@
+bin/
+obj/
+build/
+out/
+.gradle/
+.kotlin/
+local.properties
+*.apk
+*.nro
+*.nsp
+*.elf
+*.keystore
+*.jks
+/Build/
+build.nx/
+*.nacp

@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en"
+  ><head
+    ><meta charset="utf-8" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#090b19" /><meta
+      name="apple-mobile-web-app-capable"
+      content="yes" /><meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>NX Remote Play</title
+    ><link rel="stylesheet" href="/app.css" /><link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" /><meta
+      name="apple-mobile-web-app-title"
+      content="NX Remote Play"
+  /></head>
+  <body>
+    <section id="join">
+      <div class="brand"><img src="/assets/app_logo.png" alt="" /><span>NX Remote Play</span></div>
+      <form id="joinForm" class="card"
+        ><h1>Connect To A Switch</h1
+        ><p class="hint">Enter the details shown on the Switch's Host screen</p>
+        <label for="sessionId">Session ID</label
+        ><input
+          id="sessionId"
+          name="sessionId"
+          maxlength="5"
+          minlength="5"
+          required
+          autocomplete="off"
+          autocapitalize="characters"
+          spellcheck="false"
+          pattern="[A-Za-z0-9]{5}"
+          placeholder="ABCDE"
+          enterkeyhint="next"
+        />
+        <label for="password">Password</label
+        ><input
+          id="password"
+          name="password"
+          type="text"
+          maxlength="5"
+          minlength="5"
+          required
+          autocomplete="off"
+          autocapitalize="characters"
+          spellcheck="false"
+          placeholder="ABCDE"
+          enterkeyhint="go"
+        />
+        <button id="connect" type="submit">Connect</button>
+        <button id="streamerJoin" type="button" class="ghost" aria-pressed="false"
+          >Streamer mode: hide ID and password</button
+        >
+        <button id="installJoin" type="button" class="ghost" hidden>Install as an app</button>
+        <button id="exportLogsJoin" type="button" class="ghost">Export logs</button>
+        <button id="updateJoin" type="button" class="ghost"
+          >Check for updates: <span data-update-status>Not checked</span></button
+        >
+        <a class="hint releases-link" href="https://github.com/ElectroTamp/NX-Remote-Play/releases" target="_blank" rel="noopener"
+          >Releases page: github.com/ElectroTamp/NX-Remote-Play/releases</a
+        >
+        <p id="iosHint" class="hint" hidden
+          >iPhone has no install prompt. For full screen: tap the Share button in Safari, choose Add
+          to Home Screen, then open NX Remote Play from your Home Screen.</p
+        ></form
+      >
+    </section>
+    <section id="player" hidden>
+      <header id="topBar"
+        ><div class="brand small"
+          ><img src="/assets/app_logo.png" alt="" /><span>NX Remote Play</span></div
+        >
+        <span id="state" class="chip" role="status">Connecting</span>
+        <div class="spacer"></div>
+        <button id="hideUi" type="button" class="bar-button" title="Hide the interface (H)"
+          ><span class="ico" aria-hidden="true">&#128065;</span
+          ><span class="lbl">Hide UI</span></button
+        >
+        <button
+          id="menu"
+          type="button"
+          class="bar-button"
+          aria-expanded="true"
+          aria-controls="panel"
+          aria-label="Menu"
+          ><span class="ico" aria-hidden="true">&#9776;</span><span class="lbl">Menu</span></button
+        ></header
+      >
+      <div id="viewport"
+        ><video id="video" autoplay playsinline muted></video
+        ><img id="home" alt="Switch screen" hidden /><pre id="stats" aria-live="off"></pre
+        ><span id="fpsPill">– FPS</span></div
+      >
+      <aside id="panel"
+        ><section class="card tight" aria-labelledby="gView"
+          ><h2 id="gView">View</h2>
+          <button id="fullscreen" type="button" class="row"
+            ><span class="ico" aria-hidden="true">&#x26F6;</span><span>Fullscreen</span></button
+          >
+          <button id="sound" type="button" class="row"
+            ><span class="ico" aria-hidden="true">&#128266;</span><span>Sound</span
+            ><em>Off</em></button
+          >
+          <button
+            id="upscaleToggle"
+            type="button"
+            class="row"
+            aria-pressed="false"
+            title="Draws the picture with a sharper enlarging filter when it is shown larger than 1280x720"
+            ><span class="ico" aria-hidden="true">&#10024;</span><span>Sharper picture</span
+            ><em>Off</em></button
+          >
+          <button
+            id="statsToggle"
+            type="button"
+            class="row"
+            title="Numbers drawn over the picture: frame rate, or full details"
+            ><span class="ico" aria-hidden="true">&#9783;</span><span>Stats on picture</span
+            ><em>Off</em></button
+          >
+          <button
+            id="rotateToggle"
+            type="button"
+            class="row"
+            aria-pressed="true"
+            title="Turning the phone to landscape hides the interface so the picture fills the screen; turning back brings it back"
+            ><span class="ico" aria-hidden="true">&#x21BB;</span><span>Full screen on rotate</span
+            ><em>On</em></button
+          ></section
+        >
+        <section class="card tight" aria-labelledby="gControls"
+          ><h2 id="gControls">Controls</h2
+          ><p id="controller" role="status">Press a controller button to detect your gamepad.</p
+          ><div
+            id="padLegend"
+            hidden
+            aria-label="What your controller's buttons do on the Switch"
+          ></div>
+          <button
+            id="padToggle"
+            type="button"
+            class="row"
+            aria-pressed="true"
+            title="Off: this page sends no gamepad, keyboard or HOME input and takes no player place on the Switch"
+            ><span class="ico" aria-hidden="true">&#127918;</span><span>Controller</span
+            ><em>On</em></button
+          >
+          <button
+            id="padsToggle"
+            type="button"
+            class="row"
+            aria-pressed="false"
+            aria-controls="controls"
+            ><span class="ico" aria-hidden="true">&#9635;</span><span>On-screen buttons</span
+            ><em>Off</em></button
+          >
+          <button
+            id="touch"
+            type="button"
+            class="row"
+            aria-pressed="false"
+            title="Lets you tap and drag on the picture as the Switch touch screen"
+            ><span class="ico" aria-hidden="true">&#9758;</span><span>Touch screen</span
+            ><em>Off</em></button
+          >
+          <select id="controller-select" aria-label="Controller" hidden></select>
+          <button id="controller-configure" type="button" class="row" disabled
+            ><span class="ico" aria-hidden="true">&#9881;</span
+            ><span>Configure controller</span></button
+          ></section
+        >
+        <section id="controller-mapping" hidden aria-label="Controller mapping"
+          ><h2>Controller layout</h2
+          ><p
+            >Press a button or move a stick to see its number, then choose where it goes. Controller
+            input pauses while editing.</p
+          ><p id="controller-live" role="status"></p><div id="controller-bindings"></div
+          ><nav
+            ><button id="controller-save" type="button">Save layout</button
+            ><button id="controller-reset" type="button">Reset layout</button
+            ><button id="controller-cancel" type="button">Cancel</button></nav
+          ></section
+        >
+        <p id="controller-save-status" role="status"></p>
+        <button id="install" type="button" class="row" hidden
+          ><span class="ico" aria-hidden="true">&#x2B07;</span><span>Install as an app</span></button
+        >
+        <button id="updateCheck" type="button" class="row" title="Asks GitHub whether a newer release is out"
+          ><span class="ico" aria-hidden="true">&#x21BB;</span><span>Check for updates</span
+          ><em data-update-status>Not checked</em></button
+        >
+        <a class="row" href="https://github.com/ElectroTamp/NX-Remote-Play/releases" target="_blank" rel="noopener"
+          ><span class="ico" aria-hidden="true">&#x2197;</span><span>Releases page</span></a
+        >
+        <button id="exportLogs" type="button" class="row" title="Saves this page's log as a text file to send with a problem report"
+          ><span class="ico" aria-hidden="true">&#x1F4C4;</span><span>Export logs</span></button
+        >
+        <button id="disconnect" type="button" class="row danger"
+          ><span class="ico" aria-hidden="true">&#9211;</span><span>Disconnect</span></button
+        ></aside
+      >
+      <div id="controls" hidden aria-label="Switch controls">
+        <div class="pad shoulders"
+          ><button data-key="6">L</button><button data-key="8">ZL</button
+          ><button data-key="11">&minus;</button><button data-home="1">HOME</button
+          ><button data-key="10">+</button><button data-key="9">ZR</button
+          ><button data-key="7">R</button></div
+        >
+        <div class="pad face"
+          ><div class="side left"
+            ><div class="stick" data-stick="0" aria-label="Left stick"><span class="knob"></span></div
+            ><div class="dpad"
+              ><button data-key="13">&#9650;</button><button data-key="12">&#9664;</button
+              ><button data-key="14">&#9654;</button><button data-key="15">&#9660;</button></div
+            ></div
+          >
+          <div class="side right"
+            ><div class="abxy"
+              ><button data-key="2">X</button><button data-key="3">Y</button
+              ><button data-key="1">B</button><button data-key="0">A</button></div
+            ><div class="stick" data-stick="1" aria-label="Right stick"><span class="knob"></span></div
+          ></div></div
+        >
+      </div>
+      <footer id="barBottom"
+        ><span class="spacer"></span><span id="statRes" class="stat" hidden></span
+        ><span id="statRtt" class="stat" hidden></span
+        ><span id="statFps" class="stat">– FPS</span></footer
+      >
+    </section>
+    <button
+      id="streamCircle"
+      type="button"
+      hidden
+      aria-label="Stream menu. Drag to move."
+      aria-haspopup="menu"
+      aria-expanded="false"
+      ><svg viewBox="0 0 24 24" aria-hidden="true"
+        ><path d="M0 4.8H24M0 12H24M0 19.2H24" /></svg
+    ></button>
+    <div id="streamMenuCatcher" hidden></div>
+    <div id="streamMenu" role="menu" aria-label="Stream menu" hidden></div>
+    <p id="fsHint" role="status" hidden>Tap anywhere for full screen</p>
+    <div id="updateDialog" role="dialog" aria-modal="true" aria-labelledby="updateTitle" hidden
+      ><div class="update-card"
+        ><h2 id="updateTitle">Update available</h2
+        ><p id="updateText"></p
+        ><p class="update-url">github.com/ElectroTamp/NX-Remote-Play/releases</p
+        ><nav
+          ><a id="updateOpen" class="update-open" href="https://github.com/ElectroTamp/NX-Remote-Play/releases" target="_blank" rel="noopener"
+            >Open releases page</a
+          ><button id="updateLater" type="button">Later</button></nav
+        ></div
+      ></div
+    >
+    <p id="status" role="status" aria-live="polite">Ready</p>
+    <script src="/controller.js" defer></script
+    ><script src="/app.js" defer></script
+    ><script src="/fsr.js" defer></script
+    ><script src="/upscale.js" defer></script></body
+></html>

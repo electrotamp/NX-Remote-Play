@@ -1,0 +1,3270 @@
+{
+  "SchemaVersion": 1,
+  "Files": [
+    {
+      "Path": "Build.cmd",
+      "Bytes": 273,
+      "SHA256": "E4C8C318948BC6D710F3901E5531CB2F5D59B32EC16C34D1D3F9B59C1D0F3009"
+    },
+    {
+      "Path": "Build.ps1",
+      "Bytes": 28376,
+      "SHA256": "6F99267A0B5CC64CFC977E25C3BFF47E0225636A3C65EF07D0A2AFFC64112A1C"
+    },
+    {
+      "Path": "LICENSE",
+      "Bytes": 18431,
+      "SHA256": "189B1AF95D661151E054CEA10C91B3D754E4DE4D3FECFB074C1FB29476F7167B"
+    },
+    {
+      "Path": "PROTOCOL.md",
+      "Bytes": 4778,
+      "SHA256": "579953AE301690D7DBFE8D7C71B81208B66CA7F2FE7EFA5540D411D0DF2E7A87"
+    },
+    {
+      "Path": "README.md",
+      "Bytes": 18268,
+      "SHA256": "BFD5E8D96FA4611451FB0F50F88D8B3A7DC40E734F50D5BAD5BBB4D8C1A031E3"
+    },
+    {
+      "Path": "Source/Android/app/build.gradle",
+      "Bytes": 1672,
+      "SHA256": "4D740AAC65B679A6EFCF724E7E69DD140BE19B4055754FB0941D897868964CC3"
+    },
+    {
+      "Path": "Source/Android/app/src/main/AndroidManifest.xml",
+      "Bytes": 1735,
+      "SHA256": "33188010C6C1829A6E6F1562584D3C3692B277DA026A28DD115DDE931777C482"
+    },
+    {
+      "Path": "Source/Android/app/src/main/assets/fsr/ffx_a_es.glsl",
+      "Bytes": 90181,
+      "SHA256": "D34B9597B17C62B5472E0242AC2334C2E913CC4F4FF14EBA7F2BDED12D2C35D7"
+    },
+    {
+      "Path": "Source/Android/app/src/main/assets/fsr/ffx_fsr1.glsl",
+      "Bytes": 24436,
+      "SHA256": "44E0F3849236C44B30058362E3CC5B8C5CAE972F5F6960B5D4EB72207FB05E96"
+    },
+    {
+      "Path": "Source/Android/app/src/main/assets/fsr/LICENSE-FSR1.txt",
+      "Bytes": 1481,
+      "SHA256": "06ED516E4C28021BBF6B473BFC2DF20AF05AE49E3C8CD409AD282B46CBC3BE5D"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/AvSyncPolicy.kt",
+      "Bytes": 851,
+      "SHA256": "5848AFCB389459AA345A75AAF352DD9900E4783E08CDB5CBAE6F7116155E5EA8"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/BaselineMediaTrace.kt",
+      "Bytes": 755,
+      "SHA256": "FAA6A2950846B36711B4B09035570715FB97B691F9C90593F87D823C225C2317"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/BaselinePublicLogs.kt",
+      "Bytes": 5727,
+      "SHA256": "7D4E9ECB8FA3D3B3CF1A816F066799383F0C21372A6818682A6CFD2190677200"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/ConnectionLogRedaction.kt",
+      "Bytes": 331,
+      "SHA256": "7D4CDA01FB3C88546801E482B1A1A94EE3F80728F10930642FCA749C4E71C16A"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/DeliveryFeedback.kt",
+      "Bytes": 2950,
+      "SHA256": "E8A1A1BFFC84C83390C7768C389B43284C267C8FB5B0B098350A623DD2CE3CFD"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/DiagnosticArchive.kt",
+      "Bytes": 8302,
+      "SHA256": "6D15755BA7D8DDEFAE6DCCBAF4888A8C70C6EE1DF53AAB9591E06DF455297488"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/FrameReleaseQueue.kt",
+      "Bytes": 1914,
+      "SHA256": "4EBC6FC2EEDB2D5249F5117A0B70ED42544ECCC2B20BE1819B2D82AD12A8B480"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/FrameTrace.kt",
+      "Bytes": 5132,
+      "SHA256": "8F71E9C171904568636032CBEDA67E6C1FE19101817D4CEEAA57A0ED0C93F072"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/MainActivity.kt",
+      "Bytes": 10023,
+      "SHA256": "CE4580D9847C2253E582A491FA5D0FAA5B779AB7624EC5BBDDBCBA3C72261839"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/NetworkBearer.kt",
+      "Bytes": 5736,
+      "SHA256": "2760929780788E76C1E3FE5C4300A5020F65528EA32B36686496206FA2B711C2"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/NxRemotePlayVideoClient.kt",
+      "Bytes": 47383,
+      "SHA256": "4283EF837C60D9E529C4DCE0F7A90EA12ECB6C4670DE909870EADE07EE63028D"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/OpusAudioDecoder.kt",
+      "Bytes": 3777,
+      "SHA256": "9DA894012D2FEA215291664FB99F969788CF14470BD1BBC76B3F70BED844BEA9"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/PendingPcm.kt",
+      "Bytes": 2517,
+      "SHA256": "5E8563120EFFDB12C6CC16E72A6E99B0C52F26235A6260F648023FA9D661CC20"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/Prefs.kt",
+      "Bytes": 5847,
+      "SHA256": "B3F2069AC771C4CDF042651FDDFABE8C3878DBA5229CF624AA916DF1A3E34DB2"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/PunchSession.kt",
+      "Bytes": 34593,
+      "SHA256": "CBF2A7DB38DB61CA1C012640C92617436D4D9601748A0710F5CC7B588A028A92"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/ReleasePacer.kt",
+      "Bytes": 4476,
+      "SHA256": "5F7B0E6DF7C4790F6B72F5DB528B76C228AFF285A79BF42A7B686F93D74E03A5"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/TcpMediaPump.kt",
+      "Bytes": 1420,
+      "SHA256": "F64A4BD149685D20FC2DB03DBB779B5ECBBB45C7F1C7E634AFA07519BCDBD9A3"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/TouchControllerView.kt",
+      "Bytes": 13673,
+      "SHA256": "191381B6295CDE9A053243F2B52A40E5290BB3DED0479366F04E6C8A1812B56B"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/udpm/CongestionMeter.kt",
+      "Bytes": 4727,
+      "SHA256": "62F9944209C38FDE162CD7B747F9F2B8918E5E73AE078DEE2DBF28FB54EE53B4"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/udpm/PlayoutClock.kt",
+      "Bytes": 6048,
+      "SHA256": "E0B6EEE099D557D7977738E0B239CA89E33E13C420CEE607EAABCAA33253D8A9"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/udpm/UdpmFec.kt",
+      "Bytes": 3030,
+      "SHA256": "EA4475A5D72654CA99CFAE716C6314C9B7ADB26BFFF4D3BA52C637DBF65EF400"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/udpm/UdpmProto.kt",
+      "Bytes": 6578,
+      "SHA256": "8D7FB3669442E1402270A961982A64C4CD2C0494FBF5A65197911DC1B8B39707"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/udpm/UdpmReceiver.kt",
+      "Bytes": 7351,
+      "SHA256": "267F598F55F902AAFDE6530C9D12C82030E1DAC6A4EF5E32832B7E9137C1CD05"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/udpm/UdpmVideoChannel.kt",
+      "Bytes": 13359,
+      "SHA256": "E3B02909DD0F98717CF63B2339199947F98C9FE0CC1B0167D3AE4ACA2A888E4D"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/udpm/UdpNat.kt",
+      "Bytes": 1598,
+      "SHA256": "0EE50E3137A764EC231D80C4C7FAFAA1AF56FD4C7C2E205367B2ABD20D13B4C8"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/ui/GamepadKeyboard.kt",
+      "Bytes": 22453,
+      "SHA256": "25D3474F4D321388D936819C7B9378E6BCE550464E479862CD1687E7BE8228B4"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/ui/PadGlyphs.kt",
+      "Bytes": 7792,
+      "SHA256": "48DE3DFDE1335369DB6764E756550389A75A5CEA4E0FA7074BAB260F552341DA"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/ui/Screens.kt",
+      "Bytes": 27475,
+      "SHA256": "771260CE2EFCA306EC06D58ED93F6B425996E7AE17E41E03315FDF569352608F"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/ui/SettingsScreen.kt",
+      "Bytes": 30585,
+      "SHA256": "3D67C72362BC7B5B83F4D83222B525FCAE0C6B22303955594703A222C996EBE3"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/ui/StreamMenu.kt",
+      "Bytes": 8725,
+      "SHA256": "BA4CA1525429E2816BD94CEF51868973555A30638BED6D9265A604ED07572C0F"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/ui/Theme.kt",
+      "Bytes": 1291,
+      "SHA256": "24CD66E2F512925F46E39C10A0438C9E87AFFF2BA108E28F26C0A3888A7D7E41"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/UpdateCheck.kt",
+      "Bytes": 5339,
+      "SHA256": "6D0A2566D042F1326E359F03E8261D404852E4840DEDCFE50ABBBB5AE1E0CC21"
+    },
+    {
+      "Path": "Source/Android/app/src/main/java/com/nxremoteplay/punchclient/UpscaleRenderer.kt",
+      "Bytes": 24033,
+      "SHA256": "71797D8A65B6A078449C9C15FB73CBA115DE2745B9F131D5BCEC72C1DE093B15"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/drawable/app_logo.png",
+      "Bytes": 9203,
+      "SHA256": "6921D4544305449BAC77665A10B04EA7F04A9ECFAA29E5042231BD617FDA407B"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/drawable/connect_joycon_wireless.png",
+      "Bytes": 7808,
+      "SHA256": "1A626F3E6BA8A95B320FD82E5FE6C63B287E7580DB864955087F39384C3DF7D7"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/drawable-nodpi/ic_launcher_foreground.png",
+      "Bytes": 14595,
+      "SHA256": "D84D3F972F84633BDBAA82A55C11286933670F8E66F3E5FECF92900502E36E71"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/font/baloo2_extrabold.ttf",
+      "Bytes": 421800,
+      "SHA256": "EDB8730B405C39FA584CBB458215025D0961F257FC4B2C337AD82237ED7802FC"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/font/baloo2_semibold.ttf",
+      "Bytes": 422332,
+      "SHA256": "242379EFDC74AA7DF2DAF6760FC0A6E59F55C4C2EEF31AC9ED6AFE48A4680E3F"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "Bytes": 270,
+      "SHA256": "32715FF646F6B9FEF7C321138E4A14556C4A1F98A87B06070B56F41643DAD718"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "Bytes": 270,
+      "SHA256": "32715FF646F6B9FEF7C321138E4A14556C4A1F98A87B06070B56F41643DAD718"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "Bytes": 3612,
+      "SHA256": "A4C1B5F866444887F5827CBE5AE61AADB6E59EBA18374FAB357FAAFA60FF4119"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "Bytes": 3753,
+      "SHA256": "7347C24FA98BCA914CB5A569BD051D0A4ACE78E1ADA1C5DF9E7DCDBF7C7F46F3"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "Bytes": 2234,
+      "SHA256": "46022CF223E84B221F167958C8D3B16B609961A0D2A023C9B5C31683E1D6E858"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "Bytes": 2275,
+      "SHA256": "86E8EB67B13C7A2842EF7843971841CD292D70BE4388EBD3C257E9C2088375DC"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "Bytes": 4888,
+      "SHA256": "7037C68EBCFB06CA6C6E58404CE2DFD5499B477A6A3154AE02C06153DCE15CAD"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "Bytes": 5188,
+      "SHA256": "5E2F906A9793298592F10B8DD3F36AF8D9825CE0675983843B93D3CA14A297BE"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "Bytes": 7649,
+      "SHA256": "4E9CE5BE3044616AC93446DD64EE21C701DF49CC9159220061CA6EE99ADAD310"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "Bytes": 8183,
+      "SHA256": "D8E65B3A9459ECA3330DEFAD00C1271DA4262034CDD6D66BA93DA4F7AF6A63E9"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "Bytes": 10394,
+      "SHA256": "8685C0A1E59F7E6D1DFEB26DABD74E677CC120176DE2806BA0E61ACD6B3F8EB9"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "Bytes": 11140,
+      "SHA256": "60C0507F2C7B3F3D3A8E91B668784654442B2747F0F17D6A525C66CAB26B179A"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/values/ic_launcher_background.xml",
+      "Bytes": 121,
+      "SHA256": "B20B5A8FB300F86EAB9707B6BB89F66081887320FF3FA319A9D30482A9524565"
+    },
+    {
+      "Path": "Source/Android/app/src/main/res/values/themes.xml",
+      "Bytes": 804,
+      "SHA256": "C9EA05266714CFFD0E0B2BFF7B938A4BB6FDA5FE16BFD3C04BD092FBBFD5C39D"
+    },
+    {
+      "Path": "Source/Android/build.gradle",
+      "Bytes": 140,
+      "SHA256": "322D7BA9229F4C2D8D1A4FA4E4FE7D9DAA5F7AF0465678B605CDFBD403E1E393"
+    },
+    {
+      "Path": "Source/Android/gradle/wrapper/gradle-wrapper.jar",
+      "Bytes": 48966,
+      "SHA256": "55243EF57851F12B070AD14F7F5BB8302DACEEEBC5BCE5ECE5FA6EDB23E1145C"
+    },
+    {
+      "Path": "Source/Android/gradle/wrapper/gradle-wrapper.properties",
+      "Bytes": 259,
+      "SHA256": "D1F446BE7E5AEA7ED5E9FBA2870F1AD9F54F94B27014F87AD1DFCA699B10F455"
+    },
+    {
+      "Path": "Source/Android/gradle.properties",
+      "Bytes": 54,
+      "SHA256": "60DA8A6DA6F918FD8BF0E54D7AF77CACA33D78DEF485F18A4997470CC232C036"
+    },
+    {
+      "Path": "Source/Android/gradlew",
+      "Bytes": 8902,
+      "SHA256": "1B5A1F16B3E28FAAC8E431074CFDABE4559CDE2A9536D03DDF5A670473AE143F"
+    },
+    {
+      "Path": "Source/Android/gradlew.bat",
+      "Bytes": 2896,
+      "SHA256": "FEDAD02C18E266EC094995A5751B7FE1EB6E74F66BF75DB64FAE2E50EB22C234"
+    },
+    {
+      "Path": "Source/Android/settings.gradle",
+      "Bytes": 329,
+      "SHA256": "9B2ED0A790A647A22409BAAF77688A5C04F4E451D05A5DEA86E10FFC89E1AC72"
+    },
+    {
+      "Path": "Source/Desktop/App/ClientApp.cs",
+      "Bytes": 12775,
+      "SHA256": "C1AFC505444DFD02D4B02685145EFC33D15DB33D8F9065BB4B760651C6ADA77D"
+    },
+    {
+      "Path": "Source/Desktop/App/IApplicationInstance.cs",
+      "Bytes": 131,
+      "SHA256": "3FC99B78C6EA1A5D32149692DAFE083F507CCDFD4B99B33365A680DEF35F1796"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/BridgeIceConfiguration.cs",
+      "Bytes": 1707,
+      "SHA256": "5187894BA02E78D67F010A41B93D9956265750395B4B25AB6182AC4EA6E97E1D"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/BridgeInputArbiter.cs",
+      "Bytes": 13107,
+      "SHA256": "A63273DFE547FCA5C25F188D824D8DDA71BDBEFF707B99186F9E9780D866F7C0"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/BridgeJoinConnector.cs",
+      "Bytes": 2459,
+      "SHA256": "CB6DEE321C9EEBD1FABC3747BD6F5C4CFB8F05E7411388CC4290B9AEF7BE181A"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/BridgeLease.cs",
+      "Bytes": 4686,
+      "SHA256": "46C7903FF4B70E2B5FA4B6B7A1803768CFC8D72A3396B82677A838822239F841"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/BridgeSignalingClient.cs",
+      "Bytes": 4951,
+      "SHA256": "5DBE6601EDB874EB75500C8ED169A96823B961CDA9C1A0AD56B93B7C93807A5D"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/BrowserPortMapping.cs",
+      "Bytes": 4664,
+      "SHA256": "9D31A1FAE46375AE7D4FC73DF7658B54B0107A8B2F82514BDE2A076926492892"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/BrowserRtcHost.cs",
+      "Bytes": 14933,
+      "SHA256": "E36E16A6BFD291353C63615454CFBD0131D4100A36FE18464938B220BF3A5624"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/BrowserRtcPeer.cs",
+      "Bytes": 18091,
+      "SHA256": "C5738D5E2199363009A42CE3709C7C6F74A19746A09404F53B56BEF4BAA48BF2"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/CaptureRtpClock.cs",
+      "Bytes": 699,
+      "SHA256": "F3813868977F8F72DE6FD53DD6043B3F0CA45CA770A483B7DB2D4B7025F02FC9"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/DesktopBridgeSession.cs",
+      "Bytes": 10421,
+      "SHA256": "2132EC71D3893322C869EBB71460775CEBB2176ECE74294B5FCA2BF349B2ADF0"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/DesktopBrowserSession.cs",
+      "Bytes": 15171,
+      "SHA256": "E062E155736E323B10443A036ACD2E4DF7F77DFBC5161D38E198A9E27F6E2234"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/DesktopPunchHost.cs",
+      "Bytes": 5845,
+      "SHA256": "DDBCBF9AD7BCAFB8987DF1CBE1A781D3F0C66B4D47759ACFB98F420632393E1B"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/IBridgeHostSource.cs",
+      "Bytes": 590,
+      "SHA256": "834F91C564BA2D72934BD4C54DF108881C289312144322ABE0373B5BC68B69BA"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/IBridgeOwnerClient.cs",
+      "Bytes": 410,
+      "SHA256": "895EB3D0536BE1975F700D53EC3536902B981279E195B884B864FA58FE585575"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/InputFlowLog.cs",
+      "Bytes": 3480,
+      "SHA256": "3CCDF5E4DED6B2387C86040A01ABCD9124DD7C64FCF2487D009120EBF86E3ACA"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/NativeForwarder.cs",
+      "Bytes": 22346,
+      "SHA256": "0A4615E15053708974842ED20D4C57626CB1B9B3D7D88F78F3103A056B4D3AB9"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/NativeLanDiscovery.cs",
+      "Bytes": 2044,
+      "SHA256": "59459E4DF3E31226C9FD1A6C1421302D1E21CE2FDD8D1F29D103ADA479C33C17"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/NativeMediaQueue.cs",
+      "Bytes": 2181,
+      "SHA256": "71CB7B589BABFE8E2058A07D3E9F734C6474DFE1718FAA48FA694DD2BB658C81"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/NativeOwnerClient.cs",
+      "Bytes": 4574,
+      "SHA256": "894BBF20320C12AC3A6E0B31EA064A6353AAB1AAC9164ECC1D2395447F868808"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/OwnerKeyEnrollment.cs",
+      "Bytes": 5844,
+      "SHA256": "E4D53F9986C0769DB7A693223B20E6EEA50F49AC6A2B5F3B6E605EEA40A4583A"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/PadFlowLog.cs",
+      "Bytes": 4506,
+      "SHA256": "2D8A8A9D524DB6A369E405F0BA9797EE685C37294CB502833175A6992BFF9F68"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/PunchRouterMapping.cs",
+      "Bytes": 4250,
+      "SHA256": "8F735D2ABA1195A36C3AF50564DE4B166655F4AE54F204F437525D360AB35781"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/RtcFlowLog.cs",
+      "Bytes": 1774,
+      "SHA256": "9AB162FF73F837FA371D6D37A68C45168AC2CDB215D0CE3771FAB9B7612AFC00"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/UdpmSender.cs",
+      "Bytes": 9151,
+      "SHA256": "2A5A781ADB56603901C7B1780BDAE92F454229E7EFF72475D27B369A86B1ADED"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/UdpmViewerPlace.cs",
+      "Bytes": 11490,
+      "SHA256": "6437E068BBB3A5CE602D9FD37F63D39B013B529C1EED93BDFB5B980351A3555E"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/UdpmWire.cs",
+      "Bytes": 10021,
+      "SHA256": "FBDD8791F29CCA61181F8C0491F463C76E5AD0F8BA8E2EECD2DE1FE2D02247B4"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/ViewerRegistry.cs",
+      "Bytes": 8012,
+      "SHA256": "FD20B2C98314C6E1C3A37CDA086FD87FAE0EA4A7A6B06A9A1A52A0DA0ADA948D"
+    },
+    {
+      "Path": "Source/Desktop/Bridge/WebFlowLog.cs",
+      "Bytes": 4472,
+      "SHA256": "1E1F403B27AC24199A8CB899683FFAE4EA9C44E504BF5CF4BD5B9EFB527D5DE2"
+    },
+    {
+      "Path": "Source/Desktop/Client.csproj",
+      "Bytes": 3628,
+      "SHA256": "EA845C314F0222B3A0CB7F835618CEB66FDCCFD9888673F267F576E0EB3D82AB"
+    },
+    {
+      "Path": "Source/Desktop/Client.ico",
+      "Bytes": 28988,
+      "SHA256": "5F3273B68B32F9EF70F12FA450B73B9865793D4DAAE5D7507D21B9269E394411"
+    },
+    {
+      "Path": "Source/Desktop/Core/DebugOptions.cs",
+      "Bytes": 3244,
+      "SHA256": "80277B8570851F461BB38BC785C28B3CC63ACEF5630E2FAF6B9AB76E12E453A0"
+    },
+    {
+      "Path": "Source/Desktop/Core/DisposableCollection.cs",
+      "Bytes": 1359,
+      "SHA256": "448AA8538CD5CB3687563571F947C3F025BD9AE4F0F92ABE8DF5BFB87FEEFCBC"
+    },
+    {
+      "Path": "Source/Desktop/Core/ErrorCodeExtensions.cs",
+      "Bytes": 2575,
+      "SHA256": "166B8FFE8335FFA283B86588E3C7C650C2AE417594BF4E33075C38F4CAC61180"
+    },
+    {
+      "Path": "Source/Desktop/Core/GuideButton.cs",
+      "Bytes": 1987,
+      "SHA256": "5DDE5FE776255C7012380E3976B226F8EA20EECFAE5A43CE5F1B8C11C97EF55D"
+    },
+    {
+      "Path": "Source/Desktop/Core/MonotonicClock.cs",
+      "Bytes": 439,
+      "SHA256": "2971E5621895ADF8DE4C89FCBC44D4E93402C3639F987B5401B1736DD704D252"
+    },
+    {
+      "Path": "Source/Desktop/Core/Options.cs",
+      "Bytes": 5725,
+      "SHA256": "18ABC8614B6C603DAD2722320555CEB4B39B11759578A7E1F36DD4DE04C5EEC9"
+    },
+    {
+      "Path": "Source/Desktop/Core/ServerAddress.cs",
+      "Bytes": 3424,
+      "SHA256": "970A039727A2A10E7009A518AB22B0DEBF12C26E732677837DE1EE8A60BBD356"
+    },
+    {
+      "Path": "Source/Desktop/Core/StreamInfo.cs",
+      "Bytes": 3271,
+      "SHA256": "EFA6CA4A5E99331D58DA28064AAB7A3140C92442486752072EFB5ED4BDE73DA1"
+    },
+    {
+      "Path": "Source/Desktop/Core/StreamManager.cs",
+      "Bytes": 15446,
+      "SHA256": "F2AD635B2A2C652246B406032C7865664B7D6C6F72E12DA14322DB4F70F94626"
+    },
+    {
+      "Path": "Source/Desktop/Core/StringTable.cs",
+      "Bytes": 3662,
+      "SHA256": "B978C2E54C52E6B4F12D9F8D12371429B7C1E284A63637F25329EE59D694D08C"
+    },
+    {
+      "Path": "Source/Desktop/Core/SupportReport.cs",
+      "Bytes": 6384,
+      "SHA256": "E1AEDE9DA2651056816686F5EA3E95C2991D49AEC29C66729234D7F052D064AA"
+    },
+    {
+      "Path": "Source/Desktop/Core/UpdateCheck.cs",
+      "Bytes": 5069,
+      "SHA256": "35E13E76866104E77981526DA28F71E62169FBB9DA67614F92BE9C1CADFF8134"
+    },
+    {
+      "Path": "Source/Desktop/Core/VideoBitrateMeter.cs",
+      "Bytes": 2069,
+      "SHA256": "CDB0D716E966D58ED7FE399AB7E90C3E86DE45E2003C3427317C21289BE39132"
+    },
+    {
+      "Path": "Source/Desktop/GUI/Components/FramerateCap.cs",
+      "Bytes": 2405,
+      "SHA256": "17C644F57F067AE095248244B350F6B1EBFA5139E19FCC2E5BA0D43E6D36D894"
+    },
+    {
+      "Path": "Source/Desktop/GUI/Components/Image.cs",
+      "Bytes": 1191,
+      "SHA256": "13CD49AE4A016FC460C6C38F4076C039639E16F2BF5553F79F99D8A36873C4D6"
+    },
+    {
+      "Path": "Source/Desktop/GUI/Components/PadNavigator.cs",
+      "Bytes": 6960,
+      "SHA256": "AAE80A7D766FF6C7D104ABBCA8CA9E462F4FEAE6F44C3B764CECC8D70796707F"
+    },
+    {
+      "Path": "Source/Desktop/GUI/Components/SDLContext.cs",
+      "Bytes": 11343,
+      "SHA256": "8D40FDC3E5360D9BFDF8B00BEB6168A6F5EE7FA4B46AEDF724CB9A303B11821E"
+    },
+    {
+      "Path": "Source/Desktop/GUI/DesktopStreamUi.cs",
+      "Bytes": 47707,
+      "SHA256": "02ED88CC8D13DAB7C5EA596C2C3F58E3340B3851FEAFA036F177A26A1BA88D3D"
+    },
+    {
+      "Path": "Source/Desktop/GUI/DesktopTextInput.cs",
+      "Bytes": 11121,
+      "SHA256": "0518FBA5CCEAE79D87DC379FE101773BC0FD65DD8C69EC62C49CC6D348914B6A"
+    },
+    {
+      "Path": "Source/Desktop/GUI/DesktopView.cs",
+      "Bytes": 92325,
+      "SHA256": "1230169CF2F7771E55B5D8E07C8DD2514C803BBEAA0771ABD26B2398E607559D"
+    },
+    {
+      "Path": "Source/Desktop/GUI/GlUpscaler.cs",
+      "Bytes": 28582,
+      "SHA256": "93C41D4D35D3F6CE23D7A765DF3964310DF8FEAC9CF9D628CF6C08AD3247E493"
+    },
+    {
+      "Path": "Source/Desktop/GUI/Interfaces.cs",
+      "Bytes": 1514,
+      "SHA256": "F2B310B1521863D67BEB2D4216D8ED471FA4220251FCD548C77ED4DAE0238D98"
+    },
+    {
+      "Path": "Source/Desktop/GUI/PlayerCore.cs",
+      "Bytes": 8173,
+      "SHA256": "64B32B0DAB1A1920A627AEA1C1DF622F5FF1FD3CA91700A5787171DD50A204DA"
+    },
+    {
+      "Path": "Source/Desktop/Platform/DynamicLibraryLoader.cs",
+      "Bytes": 3926,
+      "SHA256": "D87661557EE6C3C9E7CA2CBDFD516D6642698FF51A237C93A3231BAF9220BB2A"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/Desktop/app_logo.png",
+      "Bytes": 9203,
+      "SHA256": "6921D4544305449BAC77665A10B04EA7F04A9ECFAA29E5042231BD617FDA407B"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/Desktop/Baloo2-ExtraBold.ttf",
+      "Bytes": 421800,
+      "SHA256": "EDB8730B405C39FA584CBB458215025D0961F257FC4B2C337AD82237ED7802FC"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/Desktop/Baloo2-SemiBold.ttf",
+      "Bytes": 422332,
+      "SHA256": "242379EFDC74AA7DF2DAF6760FC0A6E59F55C4C2EEF31AC9ED6AFE48A4680E3F"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/Desktop/connect_joycon_wireless.png",
+      "Bytes": 7808,
+      "SHA256": "1A626F3E6BA8A95B320FD82E5FE6C63B287E7580DB864955087F39384C3DF7D7"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/resources/fonts/OpenSans.ttf",
+      "Bytes": 16668,
+      "SHA256": "6A6555DA51334545E149C70C98ED14D30457BDF082BBF7DEA22E8846281E43BB"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/resources/loading.yuv",
+      "Bytes": 1382400,
+      "SHA256": "AECA62F6B5D4334DFDCBA75E7057282E534D1BFBB61429C990BE81FADE8C1B2E"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/resources/strings/english.json",
+      "Bytes": 1049,
+      "SHA256": "983FE0E829EDC873A34854D2AFE58A338D92AC771C7A66E0204A77C18BBE46B0"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/avcodec-59.dll",
+      "Bytes": 53108224,
+      "SHA256": "FDF5A20339864EEC2B3357854DCCC8D1326A06EF0CE16CC369EE9ACCF712C9A7"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/avdevice-59.dll",
+      "Bytes": 2122752,
+      "SHA256": "5B78D2D4E484E929C93AE44BD44161DD8E8FD56A243A3523A6F4EC56E4892F1C"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/avfilter-8.dll",
+      "Bytes": 19970048,
+      "SHA256": "2D81C686D2A3EA9E500AF260845EB1CEFC7532B6046E98225DE5D65C4A0018D4"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/avformat-59.dll",
+      "Bytes": 12912640,
+      "SHA256": "6495B0251F996ADE61473EE2E2984372E14D7DA511DD8B85F714ACB4346E78F4"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/avutil-57.dll",
+      "Bytes": 1190400,
+      "SHA256": "2727CE5D8BDD9CABDF50351F722601C902D7342CEA39051DAFFCB1A2AA612332"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/cimgui.dll",
+      "Bytes": 982016,
+      "SHA256": "0209276B796CEA43418FD27EB3D67278F96698DB688BD452400F495BB200FFC5"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/libtiff-5.dll",
+      "Bytes": 426496,
+      "SHA256": "7BCF98EA3E23AAC1EB06C59BF5BE641ADE67A56AE5AB0FA0DFF972EA20E6EE37"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/libusb-1.0.dll",
+      "Bytes": 161280,
+      "SHA256": "1DAC95D1EAFCBA057CF3DF73DCF419BC14F4167EF4AC92FE1F8FDCAB4278B6F4"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/libwebp-7.dll",
+      "Bytes": 446464,
+      "SHA256": "392A375D3C6732C570257F29D239C807AD4C2340F71BD3ED707CD139372997C2"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/SDL2.dll",
+      "Bytes": 1619456,
+      "SHA256": "15B3A9BF8069F862B99ADE425D0E906444B0C6DFFEF4E8CA47FED33BAE3856A0"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/SDL2_image.dll",
+      "Bytes": 162304,
+      "SHA256": "5A3C5ED9A91B6B153D0E455B66B59D6556BEC478C6EEA4D97B6751C22BBBBD96"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/swresample-4.dll",
+      "Bytes": 613376,
+      "SHA256": "4E440EC7141A274CF08562D085F2E2EC4B91FC9EC992C311CB3F309205B44E4B"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources/win-x64/native/swscale-6.dll",
+      "Bytes": 679936,
+      "SHA256": "3624CFCD92059650A0C4B918654786B6D881E366D60804294CD1469DCE17A399"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Resources.cs",
+      "Bytes": 1207,
+      "SHA256": "39B8EBC715E049F1F8617C34CBD13EB04210CA2F956327EAF735088A7E6D6446"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Specific.Win/WinAntiInject.cs",
+      "Bytes": 6138,
+      "SHA256": "B4A8570F9A608645697B5FF3868F9259724849FBC900EEE430321C7DA1897D30"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Specific.Win/WinClipboard.cs",
+      "Bytes": 4219,
+      "SHA256": "B55AC84EDAD31BACDB815D707C7418F89AA312CEDBE65DB1574E30945B4BAE95"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Specific.Win/WinFolderDialog.cs",
+      "Bytes": 3702,
+      "SHA256": "84132FA82CE65486716B3D68EF8F96B1309D0F1CEC68FC483472E5C6D1B7A1B2"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Specific.Win/WinPinvoke.cs",
+      "Bytes": 2643,
+      "SHA256": "86C16BBAF613A05E62F90233C03CAB80DA59C7DC79AB4C5683EE5E3B07E55F79"
+    },
+    {
+      "Path": "Source/Desktop/Platform/Specific.Win/WinUsbDriver.cs",
+      "Bytes": 5612,
+      "SHA256": "6E4D018F1088C0619D1395DC9BDA9F8EDE2513DFC4F7E5F0937B042AFDAAA644"
+    },
+    {
+      "Path": "Source/Desktop/Platform/SystemUtil.cs",
+      "Bytes": 1860,
+      "SHA256": "D62F918ADF056672F3BA1C37F6E47FA95393E008E5CF16CA83E52E6A653174D9"
+    },
+    {
+      "Path": "Source/Desktop/Program.cs",
+      "Bytes": 6665,
+      "SHA256": "E9A3F3D17E9A8740303D9A0D65D2A5A214FBF61F0ABA94ADEF831A774861126C"
+    },
+    {
+      "Path": "Source/Desktop/Properties/launchSettings.json",
+      "Bytes": 112,
+      "SHA256": "8682F70E39D96DA60853885A8DC18D92906CF4EEA6891DC5D4942353A191F757"
+    },
+    {
+      "Path": "Source/Desktop/release_version.txt",
+      "Bytes": 13,
+      "SHA256": "5703A2F830F2A6E2CE9BE19E37C5309E39B6566D071F641CF11C5DC2C1C6331D"
+    },
+    {
+      "Path": "Source/Desktop/Sources/IInputSink.cs",
+      "Bytes": 170,
+      "SHA256": "FD417B01221597860AAA7BB1E1C055B4AD898E2035C7E666DB87B261F80A54CB"
+    },
+    {
+      "Path": "Source/Desktop/Sources/PacketReplayTable.cs",
+      "Bytes": 1163,
+      "SHA256": "41DD66FB1F7B0C8D2C9D5F07DA231A21DB6103D57F76D7122C1F9ED727355E13"
+    },
+    {
+      "Path": "Source/Desktop/Sources/Protocol.cs",
+      "Bytes": 15680,
+      "SHA256": "A486F31A6349F2515DCC65467B11C107EAAB8589094D16CE0BA00FADC3600387"
+    },
+    {
+      "Path": "Source/Desktop/Sources/PunchController.cs",
+      "Bytes": 8640,
+      "SHA256": "DA7FADFD839BA0B55451CF9083DAE640AE940EE0A0CC433E9EB1BB714D724ECE"
+    },
+    {
+      "Path": "Source/Desktop/Sources/PunchSource.cs",
+      "Bytes": 20023,
+      "SHA256": "B2ECDAA5D582028FE043A89EB88B3C87CD3EED102ECEE317DB47D98F118A0AA2"
+    },
+    {
+      "Path": "Source/Desktop/Sources/UdpmClient.cs",
+      "Bytes": 22764,
+      "SHA256": "46E165C079CA9BBF4F922D14151AED11D0CF3B11C09E566D4855826C7456475A"
+    },
+    {
+      "Path": "Source/Desktop/Sources/UdpmPlayout.cs",
+      "Bytes": 6835,
+      "SHA256": "2FA11FE9903F29447A0C927C057E52DDE76C7829A0DF7BBB0E7708CA0CC46596"
+    },
+    {
+      "Path": "Source/Desktop/Sources/UsbContext.cs",
+      "Bytes": 5380,
+      "SHA256": "82E33B343113F2EAF9F4D11D342916F352789D407A0F1A1EA4F355121E2DBB65"
+    },
+    {
+      "Path": "Source/Desktop/Sources/UsbDelegationProtocol.cs",
+      "Bytes": 1802,
+      "SHA256": "A515B9886BB36A883C6C76C839696854C0F2B585A0B5FAECAAE3E3C5F03286A9"
+    },
+    {
+      "Path": "Source/Desktop/Sources/UsbEnrollmentProtocol.cs",
+      "Bytes": 4152,
+      "SHA256": "89F5417C6699F9D3726359F9251A2EF5A44CD3F88196F39282AFE90145A37053"
+    },
+    {
+      "Path": "Source/Desktop/Sources/UsbOwnerProtocol.cs",
+      "Bytes": 2548,
+      "SHA256": "A779F72A3E63BAEFF9CF5C75B694E9A41948CC5325582A121060CBE018F7A0A6"
+    },
+    {
+      "Path": "Source/Desktop/Sources/UsbPacketReader.cs",
+      "Bytes": 3649,
+      "SHA256": "A7FF66957B851D61AB3CADA8AC44FD8DB2087100C899BA7C55701176E02A5258"
+    },
+    {
+      "Path": "Source/Desktop/Sources/UsbStreaming.cs",
+      "Bytes": 27160,
+      "SHA256": "FCEBF3B59604F6D334FB744783270080CB2A4D80741DE47F0E068C19B81B870C"
+    },
+    {
+      "Path": "Source/Desktop/Targets/FileOutput/Mp4Output.cs",
+      "Bytes": 3490,
+      "SHA256": "0E58D3ED3F15A4B35083DACE1C4C572C9FD31CCBFC700F2D41BDE05DC64A0E49"
+    },
+    {
+      "Path": "Source/Desktop/Targets/FileOutput/Mp4Streams.cs",
+      "Bytes": 15047,
+      "SHA256": "71EF32C693770A1303A25E5B7E3B2407BCBC76272525B5B2F83EE64D4407EE32"
+    },
+    {
+      "Path": "Source/Desktop/Targets/H264Util.cs",
+      "Bytes": 1016,
+      "SHA256": "D92BC375926C5EAD3A1838EC88D76624B054A5033E1EF857B7E52492BBEB51ED"
+    },
+    {
+      "Path": "Source/Desktop/Targets/Player/LibavUtils.cs",
+      "Bytes": 1507,
+      "SHA256": "EF61D9504659D23835ED65F391A012E1FC10B7C42E7B56CD9725F12712F57599"
+    },
+    {
+      "Path": "Source/Desktop/Targets/Player/Player.cs",
+      "Bytes": 20501,
+      "SHA256": "B666C21FF12CCAE70F0C9DE228922052BFF3B4ADA34649A2432F3780830AA0C5"
+    },
+    {
+      "Path": "Source/Desktop/Targets/Player/Streams.cs",
+      "Bytes": 16540,
+      "SHA256": "C9A1309F554971DB5AA1274DFEBB140C76E2C5C9B8C6939B9509E0EBEB0ECCB9"
+    },
+    {
+      "Path": "Source/Desktop/Targets/Player/SyncHelper.cs",
+      "Bytes": 2309,
+      "SHA256": "0B1062FA89EA7838A11F56F3EE6117E9EDD7FDC57E7472BC838774775D041581"
+    },
+    {
+      "Path": "Source/Desktop/Targets/Player/VideoFlowStats.cs",
+      "Bytes": 3620,
+      "SHA256": "5EDA5068A84B2ABA75F987FD7A49628E837CF160FEB080325CF722BAB19BAB61"
+    },
+    {
+      "Path": "Source/Desktop/Targets/SDLCapture.cs",
+      "Bytes": 3463,
+      "SHA256": "3D1B7B0623BA43171E10EFE7E9EFB987788BDD7358D863BB2ADD256818BA2C07"
+    },
+    {
+      "Path": "Source/Desktop/Targets/VirtualCameraFeed.cs",
+      "Bytes": 19030,
+      "SHA256": "E8DC51F4495CEEFBF85E75DC4A44519CA818734629DB0EDED9DF2AE695166E60"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/ConstCharPtrMarshaler.cs",
+      "Bytes": 680,
+      "SHA256": "E77ACC5C6B03A00CB49242B45EECD71BD84AE8ACE67FA161A5944D57F2B11245"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/FFmpeg.AutoGen.csproj",
+      "Bytes": 1187,
+      "SHA256": "A1ADD0F870B3E5F46ED73AE693C4B2722F9EA4719DF828217F952DF24F4C97A8"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/FFmpeg.cs",
+      "Bytes": 1293,
+      "SHA256": "35F707E47018ADA4A998F8F29933D5ABB3B98573819D38FFD6E937A6674D43FF"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/FunctionResolver.cs",
+      "Bytes": 3558,
+      "SHA256": "95E1CA71AA10C3D6218ED1C93C94C6DEC6C9168D5501D6025D4D2941FACC4267"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/Arrays.g.cs",
+      "Bytes": 23311,
+      "SHA256": "F63DA762A2DCF6C0BFCD7DF15DD4D6D74F43FF60D0FE1C93BCB4B73F723F807F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/Delegates.g.cs",
+      "Bytes": 39683,
+      "SHA256": "5CC8A2DBFA97EDB182A1B298B7A8354F6E1718A42FA2D7FF26BC9E6F9AEA505B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/DynamicallyLoadedBindings.g.cs",
+      "Bytes": 299034,
+      "SHA256": "A09A6C299E77A3314D2997CDED0C69F87302771535997A17F93468004A6B3A13"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/Enums.g.cs",
+      "Bytes": 85698,
+      "SHA256": "E7709BBDA8B3B9B6FECC4546B560CBE55DC56D5D9CB4028D6B2000FC820E956C"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/ffmpeg.functions.facade.g.cs",
+      "Bytes": 319039,
+      "SHA256": "06DE09E0B4FE22EBC5884BEF2B98C7FB387271E37B9FBCE5B8E944EB7DDE6E57"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/ffmpeg.functions.inline.g.cs",
+      "Bytes": 14798,
+      "SHA256": "01B599104FCECE23A866C7CA845CE4B003582FB03088CDD1BC2C4E1E5E56EFCE"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/ffmpeg.libraries.g.cs",
+      "Bytes": 466,
+      "SHA256": "3847F154FA608C315FCFDABC935F3ADE358AA1F5F62ACFF91D8BE6BD650A790B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/ffmpeg.macros.g.cs",
+      "Bytes": 112798,
+      "SHA256": "79D4656EB95FE173A029BB4738BAF53C62C80DE4A9B5B23D7AADD8F0B274D89E"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/Structs.g.cs",
+      "Bytes": 162259,
+      "SHA256": "9FBC5815C0E4E5A99757042136733622BB0A16C098B1158F388118003740F5C7"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/generated/vectors.g.cs",
+      "Bytes": 197257,
+      "SHA256": "B34BCD1EFD0CD6A297C109F9697E70E3D00DD748AC317BDBA2C18FA777217BB9"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/IFixedArray.cs",
+      "Bytes": 241,
+      "SHA256": "F2FF47E27A1200EDFC9BDF3EE016C7DEF33DD6845CA2B6FCC510574688D67669"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/IFunctionResolver.cs",
+      "Bytes": 848,
+      "SHA256": "EDE869A6FD5ABD3C22ED5360C007275C1787FE4DEAE78ED03ADB3423FC3AC91B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/FFmpeg.AutoGen/UTF8Marshaler.cs",
+      "Bytes": 2465,
+      "SHA256": "92370EA3A3BADF07151B2B3C24DCBB6600D0A3732B214E85ECB69C39C2CBA0AB"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/fsr1/ffx_a.glsl",
+      "Bytes": 90173,
+      "SHA256": "495FE8E304B962BD5BAEC86F52740FC7A904E6C6552B99D2D5AD899C544613B7"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/fsr1/ffx_fsr1.glsl",
+      "Bytes": 24433,
+      "SHA256": "BC1A02DB53797C0EDC66137ABBC767A3B1BE01768B1B6A75C49877209A2B6708"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Custom/Custom.cs",
+      "Bytes": 4437,
+      "SHA256": "72A655215EFFC72A3653BBCAEA4F59A6E5CAEBE937CD2BDF3A0A1D41FCFEB461"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Delegates.cs",
+      "Bytes": 1200,
+      "SHA256": "503D9692AE83BAF621897FC0C81CAA19CB35A1E52DDF891775875B9DF4EE9CA8"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImColor.gen.cs",
+      "Bytes": 1753,
+      "SHA256": "B97AC28C24EC7FDA38551103E090A5A15057BFD3B900CE859AA02937B96533CA"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImDrawChannel.gen.cs",
+      "Bytes": 1129,
+      "SHA256": "4ED37A70F307659840223F998922E9BE841C7313B9AF3C3B14D0EEC9CD30A8EA"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImDrawCmd.gen.cs",
+      "Bytes": 1963,
+      "SHA256": "799686635AF6FA002EFF14ADD9172CFA886D46DB42FEAF8F78FD0881398C1031"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImDrawCmdHeader.gen.cs",
+      "Bytes": 1216,
+      "SHA256": "DA4A327B6B244031C1B11C404025F006811A468C36C35ACB8AE7E41C336DC36B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImDrawData.gen.cs",
+      "Bytes": 2531,
+      "SHA256": "869BADA016E6394EBC86AAC0DB9DAEFEEB41BDEBB2A173CE11EB8B5CEAB147E1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImDrawFlags.gen.cs",
+      "Bytes": 544,
+      "SHA256": "08F90A6299A31ECE5DCE9602870DA10CE47BD94C6034A7C620408F72DDF4B2D2"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImDrawList.gen.cs",
+      "Bytes": 25068,
+      "SHA256": "00BB67AD95BA4C4CFE6CCB901979E9720109A099F7B34072CD1CA7BAF5B75AE8"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImDrawListFlags.gen.cs",
+      "Bytes": 239,
+      "SHA256": "45DA6231503751831F44383647B684943F3B8AD01E107FCA2FD71DC4EB9745AE"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImDrawListSplitter.gen.cs",
+      "Bytes": 2525,
+      "SHA256": "0FBEC411BA5680670D4302B17B2BE5DFB4FDFD2D0CC88E877BDE187C608B0352"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImDrawVert.gen.cs",
+      "Bytes": 1095,
+      "SHA256": "1288EA5F8418F39EED42C1148B964258F6F2CF74CA26130115B1E7E1C6CA5073"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImFont.gen.cs",
+      "Bytes": 6290,
+      "SHA256": "A9FDB4309C205C09FCAA981B548BE7A415657EA91F51427C6AFDE1854AC9F760"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImFontAtlas.gen.cs",
+      "Bytes": 33676,
+      "SHA256": "06C88EEBDDEEED3C5A73A2D478124E5916BD9B5CC3214C84990CA18AB3F37E15"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImFontAtlasCustomRect.gen.cs",
+      "Bytes": 2166,
+      "SHA256": "4C13FB15B99276BE42F04E3A59532081FCA2F5057C4858BD831E2CA3E0C702C4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImFontAtlasFlags.gen.cs",
+      "Bytes": 202,
+      "SHA256": "CBA07F11FC668403C89E7239F263D84B1F523DA6F88F8717D3ED806F9D1B7109"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImFontConfig.gen.cs",
+      "Bytes": 3440,
+      "SHA256": "E0E5C0ADB2348A8135C9009C6641E2C42239088DC18DCA1455A96F7463633BE2"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImFontGlyph.gen.cs",
+      "Bytes": 1823,
+      "SHA256": "F0FF0998B353D6A37176C0BCE89610A07388CAA1FC7E98FC556E1497F9632101"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImFontGlyphRangesBuilder.gen.cs",
+      "Bytes": 3732,
+      "SHA256": "F8954BD50A7B2897BB21499EFBA75D4F1BC47757927421FD1CADB0BF0DE5A778"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGui.gen.cs",
+      "Bytes": 696743,
+      "SHA256": "994F69456F3AF666FC3C3787005F0192D41C9DE62636BC766C4F89DB2FD05A87"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiBackendFlags.gen.cs",
+      "Bytes": 350,
+      "SHA256": "78DF6ABCC7DFB524DF2E39D23765A8B4335414EA61A4C5757C037C5A98B3142E"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiButtonFlags.gen.cs",
+      "Bytes": 269,
+      "SHA256": "EC3690E309C759C6E9C92B315F42E7135E8C56CCB0F3BA59D12FF9149EDD90C6"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiCol.gen.cs",
+      "Bytes": 1636,
+      "SHA256": "438BBB666985991788DCAF18276991DAD31D94F3009DE536FF94899C90EA222F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiColorEditFlags.gen.cs",
+      "Bytes": 935,
+      "SHA256": "49105B596690ED0B1AEEF527C8FAF29BA0BE41678D7ED23645D49849FB6AE45D"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiComboFlags.gen.cs",
+      "Bytes": 330,
+      "SHA256": "9456FB69AA621A2AB01CBF8C0D1C49783294EDD209CF52A988288D3883220E6F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiCond.gen.cs",
+      "Bytes": 177,
+      "SHA256": "D7D46AEB8A3581A7559E9CABA33028D23B34E42E1ADBC06258AB7D15094F36B4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiConfigFlags.gen.cs",
+      "Bytes": 507,
+      "SHA256": "94659610A21F38B8323DDD629B5D6849B68A190BDFD633F96BDD40333BE46553"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiDataType.gen.cs",
+      "Bytes": 275,
+      "SHA256": "34AC3BBCDC1EDCE572FFA1EF4998A39CFA110C2C3FE394BE34491D8BF78BFF28"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiDir.gen.cs",
+      "Bytes": 181,
+      "SHA256": "FF8F7A6708E824A2AB20167F390BF8A7D1D41E75B33B5E456C7CFA59BD0EB07F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiDockNodeFlags.gen.cs",
+      "Bytes": 291,
+      "SHA256": "E78E74D1D03ECFD1194DE8E3E1C6260D0273C083789CB30819FC4CD0DF7A5EB1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiDragDropFlags.gen.cs",
+      "Bytes": 476,
+      "SHA256": "0EB7B46595835CF55321717483E93073ED18FED8AB55B3770FDAE857DA278610"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiFocusedFlags.gen.cs",
+      "Bytes": 284,
+      "SHA256": "2EFF6C7D9EDC862BF6E6AA3F1E7587BD38AA0A2425B623D8690F62B49D5052CF"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiHoveredFlags.gen.cs",
+      "Bytes": 582,
+      "SHA256": "1E43E44326FED2C55ADCD5F9715DB18551CF6C36F7CDB488790CD5CDF8F21EE0"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiInputTextCallbackData.gen.cs",
+      "Bytes": 4860,
+      "SHA256": "5ABE7CC9207A87DF645B35A733AE82420B6A69434B4FCFA597CCD9103F073892"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiInputTextFlags.gen.cs",
+      "Bytes": 780,
+      "SHA256": "B180539A1E3AB22F9E0CD159D690269D2954CABA6561C339944A1DB162271CCB"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiIO.gen.cs",
+      "Bytes": 48947,
+      "SHA256": "553D87314E1D59B4C7D69008397D866EAA4F7C343F692119DF30C1755D2CDDE5"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiKey.gen.cs",
+      "Bytes": 3812,
+      "SHA256": "DDFB788124B69688B77EA38125346329F053953AB0629927787E32959671E908"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiKeyData.gen.cs",
+      "Bytes": 1309,
+      "SHA256": "3BE2A3D8AC356790D8C75AA3E762DCB3C92845E34E9F385C2FD573F9A3C12E69"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiListClipper.gen.cs",
+      "Bytes": 2786,
+      "SHA256": "7A48D0BFFD519FB9840168B00D9056FC1376A2DAB88FEFF2C7C6A2E989EE7BF2"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiModFlags.gen.cs",
+      "Bytes": 187,
+      "SHA256": "0D4CAD30CBB45593A05C0421DDD8F2E48EE9D9F200DAA27F22114DB6183663B1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiMouseButton.gen.cs",
+      "Bytes": 154,
+      "SHA256": "4C1FF4C0D47132820F2A9F0AEEAC5A2B66EEAAE92539E1583B90D2DFBC7CEDF4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiMouseCursor.gen.cs",
+      "Bytes": 322,
+      "SHA256": "CF69DC1A0FA327CA7B06E7D6F16A497D33BF9512EFCAF6DBAA683DA1EDD8386B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiMouseSource.gen.cs",
+      "Bytes": 158,
+      "SHA256": "2797DD1524E1501E20FDD8F1D548A84A4D1FAABAFB3F09A9B58C7E10AE9ECEF3"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiNative.gen.cs",
+      "Bytes": 108016,
+      "SHA256": "B324E5A2155A129669A614A803E96F758243C8999E177F65062E7C3672903395"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiNavInput.gen.cs",
+      "Bytes": 467,
+      "SHA256": "4A06E9F8491372B674232A3F19B034A6163209AA0A97D84A67437BC6F3722998"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiOnceUponAFrame.gen.cs",
+      "Bytes": 1162,
+      "SHA256": "0E1F7E49F2F29DCE7A08BB96511C375BB79C069E240838E177265E77F7B834B1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiPayload.gen.cs",
+      "Bytes": 3628,
+      "SHA256": "69510030E9A014838A524072CBC96E89EDA52F686D3101F69708C56583D54E3F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiPlatformImeData.gen.cs",
+      "Bytes": 1451,
+      "SHA256": "BF0EF7F2762D1213373BFFE9AC9D9539DB4FD0EC087151D7E62A000927DBB4F1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiPlatformIO.gen.cs",
+      "Bytes": 5076,
+      "SHA256": "A86456815DD33BA846B08A002B456CAB305E2443C1C395C653592C379486D564"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiPlatformMonitor.gen.cs",
+      "Bytes": 1670,
+      "SHA256": "973508AB80A3C5E4D9841F51702E99A4053F0C06EFB726FF801D4727601EB1CA"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiPopupFlags.gen.cs",
+      "Bytes": 421,
+      "SHA256": "605B7BFA389AD9F5E59C103B86EE89CDF404296D279CA71944A641AB320D33EF"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiSelectableFlags.gen.cs",
+      "Bytes": 262,
+      "SHA256": "2BD35DB24884AC923D4176A9857743EEF7B604A54D02D15B3F8A1A7C3C025B08"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiSizeCallbackData.gen.cs",
+      "Bytes": 1456,
+      "SHA256": "C719DBA09DFA726501AF2F43E4F6211556F3ED1D05923E991733FF48130EDBC7"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiSliderFlags.gen.cs",
+      "Bytes": 257,
+      "SHA256": "5B654548E49F0380C7E2A1F87C8B0F30CF5CDC72C24770537548F95B02B06AF6"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiSortDirection.gen.cs",
+      "Bytes": 144,
+      "SHA256": "59D564CA4E6CFC5735FCC71AB0963715D2D5B67543810A3195ECD5C4359D0A67"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiStorage.gen.cs",
+      "Bytes": 5721,
+      "SHA256": "78932C6ACF4C9E7ABF995E152C9089CF3974575ACDC11FD1C0EB9B1CA9C23F5A"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiStyle.gen.cs",
+      "Bytes": 9240,
+      "SHA256": "A162CEB9CA388D245962BB5FC1F60FCBF09128ED2D1C0D324794E1349C23F938"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiStyleVar.gen.cs",
+      "Bytes": 926,
+      "SHA256": "83553A56B4D3D3DE895EB707CA6F8605D3F3FBD826B50259EA5B638FF03AC69E"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTabBarFlags.gen.cs",
+      "Bytes": 458,
+      "SHA256": "F7806F40E1DA09B0DDBBE267F4B0562A0E8960205CFA3595C82AB89BE5D216CB"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTabItemFlags.gen.cs",
+      "Bytes": 334,
+      "SHA256": "A33506A8A32679B2EB0D7908B3396D5F5576334CF8F6A503D200E728AF5F3363"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTableBgTarget.gen.cs",
+      "Bytes": 158,
+      "SHA256": "C2C953959BD84DA3891342132504DC64BBDCECC35A6168E7458DE11CC6BAAB52"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTableColumnFlags.gen.cs",
+      "Bytes": 884,
+      "SHA256": "26CCFD81653AC681B2A710D1B2A3604CDBFEA4A3F764F8AC817AFFD8D977A9F9"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTableColumnSortSpecs.gen.cs",
+      "Bytes": 1690,
+      "SHA256": "B9C83043497088C14AAFD867FE74E2116B3273B2A2CD4944E8E7930B41588987"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTableFlags.gen.cs",
+      "Bytes": 1176,
+      "SHA256": "3037AEE764FADFA06066B2469438335B23FE74C0BFC94976FCC3D7DA7EAD9FA8"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTableRowFlags.gen.cs",
+      "Bytes": 137,
+      "SHA256": "B0A3AB5107FA66AA86FFD20C9DBF4E867AA362A2E7FEFFA7A326F90D6DAA8FD6"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTableSortSpecs.gen.cs",
+      "Bytes": 1444,
+      "SHA256": "10EF4945686F800071BD6268141519E25E334611C79CED48A094122BEC1C5764"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTextBuffer.gen.cs",
+      "Bytes": 4664,
+      "SHA256": "08A7AFBC19EAE63DCF6F89A341E87CAF184110300E2C1F8FB5E3B5A95DD75D13"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTextFilter.gen.cs",
+      "Bytes": 6802,
+      "SHA256": "5FB9DF75E72E99A6A82573E6DC976A3DDFEE9EF83A0B34F21940186FF27B6348"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTextRange.gen.cs",
+      "Bytes": 1646,
+      "SHA256": "8D40DF76FDFBC24524260901CC2BA2BFA37DD3683EF3E2B08AAD82C6CBEC756F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiTreeNodeFlags.gen.cs",
+      "Bytes": 547,
+      "SHA256": "046D7B2C14EA450D76F14DE9ABAF4684A63388DB608952388B04037037AA7863"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiViewport.gen.cs",
+      "Bytes": 3776,
+      "SHA256": "E1317F1C9D1FC48C15BAF3951A5B14DADCE91D31005AC6D20A1A7F85A7484FE1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiViewportFlags.gen.cs",
+      "Bytes": 526,
+      "SHA256": "0C4A2A1DEFD108128DA5851FE6108E4FCB3481133165EC9FF5BB4CD3E6991CB6"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiWindowClass.gen.cs",
+      "Bytes": 2368,
+      "SHA256": "A2BF06C685372C559F5C02138E60A4AECBC658CD321227923C8DF6B4A3F47535"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/ImGuiWindowFlags.gen.cs",
+      "Bytes": 1079,
+      "SHA256": "3C98C480BFA5D1528413FBFFBE20C0A3D708A592DF2334C5CB16F47CA3B193D4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/STB_TexteditState.gen.cs",
+      "Bytes": 2633,
+      "SHA256": "A5D1E1D903066545539CEBE84840B736F4181EE62B97485BA08C5DA402AB7B5D"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/StbTexteditRow.gen.cs",
+      "Bytes": 1502,
+      "SHA256": "D5262EE919A8FF08B3E9A02DEF50AE24A3C35E0F7708D8093359055C5162437D"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/StbUndoRecord.gen.cs",
+      "Bytes": 1302,
+      "SHA256": "8787C0009AFF8D5ED93A0C54E330AFA7440C8789BE9C7B2A2A4DCAE2EC42B9DA"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Generated/StbUndoState.gen.cs",
+      "Bytes": 5837,
+      "SHA256": "63BAE487251F87DB741728851F78F3D942B5684EE622A0A2ACE14FEEA7DB7450"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/ImDrawData.Manual.cs",
+      "Bytes": 230,
+      "SHA256": "5D1DDAB3A6755B26D69DDB085B60EA4AD688C960EB056E4CB91C756B1BA6ABC0"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/ImDrawList.Manual.cs",
+      "Bytes": 2136,
+      "SHA256": "E9576F7F56F0375F5E4B0FA0E3A11304C6045324ED01523D95C3D6239DE50A9D"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/ImGui.Manual.cs",
+      "Bytes": 24712,
+      "SHA256": "623334245286C7224030CC7A1A8453FF61FABC42C0FBF7E06B8BF751649AC76F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/ImGui.NET.csproj",
+      "Bytes": 1641,
+      "SHA256": "654E30044D2C5C6228F3A3BC5673B1D530A94D30C725EF8841ABAA3C26CB88FC"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/ImGuiNative.Manual.cs",
+      "Bytes": 552,
+      "SHA256": "F3CB836C7384BB0CC6542F5FC4E345D17ABA1FC08FF06148D92A054CA5BECF1A"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/ImGuiSizeCallback.cs",
+      "Bytes": 110,
+      "SHA256": "A54F595015E396DD21FD8E40FFBFCCEF2CA6E2D6A038BB05D273BB9F3FDA077D"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/ImGuiTextEditCallback.cs",
+      "Bytes": 214,
+      "SHA256": "FEFF33C5426BD2609987622BA7AC3E211F4C547F7ED48D61BCD1C9311012AC3F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/ImVector.cs",
+      "Bytes": 2352,
+      "SHA256": "8E157AF5894751B05877D3578D108263D1066D18F4589880B3551D4436485983"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/NullTerminatedString.cs",
+      "Bytes": 650,
+      "SHA256": "A8FB9180439F25CAD42D9A6DE70B682BE3184006D237406189704CFA53473A2B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Pair.cs",
+      "Bytes": 1123,
+      "SHA256": "151D0D8F51303F7BB25E5F2B76F2F451B76B424F6A08DEB5B4BD99BEF7196355"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/RangeAccessor.cs",
+      "Bytes": 1867,
+      "SHA256": "B98FC2C2BD10939B63C12B210F00CE41BB160384C92432853BEAC6F7B035E26D"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/ImGui.NET/Util.cs",
+      "Bytes": 2930,
+      "SHA256": "5C554514C1F0A2D1E457A82C87EDF5364D54E0DA6CB52183214590F3293EB125"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Custom.cs",
+      "Bytes": 919,
+      "SHA256": "1649AA7E3DAE6C9A414F7A88B3E202AFF9CED5015E682BB4BA219A7E40C944C1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Descriptors/LangStringDescriptor.cs",
+      "Bytes": 3138,
+      "SHA256": "3D38F72EFCB3120696B8EF89585872E1CF8EEDC0EE39023955C1B2D601C92365"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Descriptors/UsbDescriptor.cs",
+      "Bytes": 2573,
+      "SHA256": "49C661BED7E4F217FA685B43C1DB45978EED5FFAC3D78DE40E3A4C38AE0A36B3"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Descriptors/UsbMemChunk.cs",
+      "Bytes": 1777,
+      "SHA256": "89C8ED46D883246F8DF5FD310283E5F1BBBAD7D9B1C0C02BDA3CE06DB0A8F3DB"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/BosDescriptor.cs",
+      "Bytes": 2613,
+      "SHA256": "F2BB0A283A1CDF6F84576E08A0A0CE215588F6FACDEDAA0987C8EA10902DA306"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/BosDevCapabilityDescriptor.cs",
+      "Bytes": 2440,
+      "SHA256": "00A8A7D765F09A447D678C12F3317EB291572479EAAC48A19A1B84289E7AD3E4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/BosType.cs",
+      "Bytes": 2022,
+      "SHA256": "B54B91E23BD249A6390B6D869DC58DB1D74E0A361C6CB13425826C5C1D566DF3"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Capability.cs",
+      "Bytes": 2644,
+      "SHA256": "D6225FDC9E8D7F888558E8181B1FC3EFCB525BEEFFC8B94E1D45AB0066423EA6"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/ClassCode.cs",
+      "Bytes": 3539,
+      "SHA256": "4C6F64D45564F7911EB54ADCBA0605A4855BBE2233C62E39B916DD86B3A26403"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/ConfigDescriptor.cs",
+      "Bytes": 3879,
+      "SHA256": "131BA5A17334334DDE0B443324290916B9488D98B4D9F8ED74E366407B157452"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/ContainerIdDescriptor.cs",
+      "Bytes": 2594,
+      "SHA256": "A87919E8546632D6029D1A740DFF411AE6BDE29EAD926E72AE5BB7C78168E445"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Context.cs",
+      "Bytes": 6673,
+      "SHA256": "CB0055F2355050F88C08AA9AE3AEEC7AED5670B80E1230DFB2E6BD8743452C75"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Context.ReleaseHandle.cs",
+      "Bytes": 1191,
+      "SHA256": "3D6CAC7F416FD11CD9D4C9EF4181051FC86B23117BC09145879C7900A10AFBCC"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/ControlSetup.cs",
+      "Bytes": 2480,
+      "SHA256": "2DB4EC67E0B98BA5D6240A77FAEC7B4D2CEC42D647160E9522E2E7F567321EAA"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/DescriptorType.cs",
+      "Bytes": 3145,
+      "SHA256": "97FDF9D19A8A8CE97CD3FA04BC1F1D8A27A9934F100BB659162039BC4A6788D5"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Device.cs",
+      "Bytes": 6649,
+      "SHA256": "5A557D5AFA4FC5019F14CBAD29C30B0BDBCEF2752942CF4992E1DF776365CC48"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Device.ReleaseHandle.cs",
+      "Bytes": 1214,
+      "SHA256": "0E1892C2314FFB008256E25B96C0F87165069F6E58920A007856B5DD5C2AC43A"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/DeviceDescriptor.cs",
+      "Bytes": 3963,
+      "SHA256": "7F5CD85A85F30C7E805EA14B00F8D15A29218ED05E73769DEE54E29E9A870030"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/DeviceHandle.cs",
+      "Bytes": 6794,
+      "SHA256": "AAF7C8F329D061DD5C7ADB7C74BB02E4A51867F796BE9FA50F03301A9A595A5C"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/DeviceHandle.ReleaseHandle.cs",
+      "Bytes": 1197,
+      "SHA256": "F1AE71AE40CCF999D58AA80DB70CD4A24C0D6DA5EFE5A35BC36CAFDA0A13DFAF"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/EndpointDescriptor.cs",
+      "Bytes": 3845,
+      "SHA256": "12BCEB5F68C124FDE769AB920093D6BDC1301E997D2227AEE48AE1CEB58AB817"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/EndpointDirection.cs",
+      "Bytes": 1865,
+      "SHA256": "4BDD683CFA5543D9931CF7FBA563EE4D8B32C4C708987A5020E43C0DCB7B82F7"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Error.cs",
+      "Bytes": 3217,
+      "SHA256": "5F18A760E4AC249CEE7BE78676B7B93F12B5C63161B159E87C81D5AFAB5E7C55"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/HotplugCallbackFn.cs",
+      "Bytes": 1631,
+      "SHA256": "FE1CEAC66595FD21FD2025FE36A51357661DA0F057B2B91371F8924D122493D0"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/HotplugEvent.cs",
+      "Bytes": 2160,
+      "SHA256": "25A4DD0E2EFCBE6ADA76F054FD1531F214AC6F17FCABE2E783DC442D4B68C86F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/HotplugFlag.cs",
+      "Bytes": 1856,
+      "SHA256": "736AB2105FDD24E5233E53D47D165394A97C39E9E1667156CDCC2CA42E040C38"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Interface.cs",
+      "Bytes": 2066,
+      "SHA256": "F12DD96B7CE46CB987884D439CE643B2BF011010ECC23B05F98156712F4C9C26"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/InterfaceDescriptor.cs",
+      "Bytes": 3920,
+      "SHA256": "4A0AA969D58739C54A1E9915B38CAC85C4E5E55244BDE397E34FADC04D7AECDC"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/IsoPacketDescriptor.cs",
+      "Bytes": 2052,
+      "SHA256": "D3B9758A968E7B86AF6E40C048D160092508D30F00F9C2B179DD72EB1D71A3F3"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/IsoSyncType.cs",
+      "Bytes": 1931,
+      "SHA256": "856B4FC0AF3E7F35A0A1B7D8C218E5E5333FA3E4D5B86DE61BD0E1A93A6A8817"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/IsoUsageType.cs",
+      "Bytes": 1861,
+      "SHA256": "5D826740AE602E6F63AAB157B596B3863D83D9CF98951FFFA7BE17B1D9F4504B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/LogLevel.cs",
+      "Bytes": 2149,
+      "SHA256": "D820B2B061B963C9F69A554E8C8666CAAB13EB6FA76415544857288D49C09381"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/NativeMethods.cs",
+      "Bytes": 17163,
+      "SHA256": "9ABC0874A5AB713C0360E3F7BCAFE65BE0F90500AE6EE59DC15BE68D01B35137"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/NativeMethods.Unsafe.cs",
+      "Bytes": 1437,
+      "SHA256": "A36965C9D591AD2D81B30F7CA51A0178A1F06E3491C80E40263C5F0E3EFE3E20"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Pollfd.cs",
+      "Bytes": 2122,
+      "SHA256": "5D6F85CA79F9C69AD1355C30CBF785BB1B058816CAE013C5992BC4C2FDB08490"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/PollfdAddedDelegate.cs",
+      "Bytes": 1698,
+      "SHA256": "3F3F91762E0167DB24D2CF42A7EA4F2166782C6B86A868E2840A997C599C2C94"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/PollfdRemovedDelegate.cs",
+      "Bytes": 1815,
+      "SHA256": "D992A77A28AEC5E572BE1101EFEE7FC16CAB0CE4DAAE48F564B69B75204D7B02"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/RequestRecipient.cs",
+      "Bytes": 1940,
+      "SHA256": "0C8EEC43B3962392661D5654190751DC080E8408342EB563F73F96CA69CDED55"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/RequestType.cs",
+      "Bytes": 1902,
+      "SHA256": "77D78FE7D1369F0DC47B968B38BB769FCEFF780CAA7C57204B166174E214FF1B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Speed.cs",
+      "Bytes": 2246,
+      "SHA256": "32E873501C543652FCBEFC81BE85CD293FE32B8573C850A0AF30F28BC4F3B092"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/SsEndpointCompanionDescriptor.cs",
+      "Bytes": 2923,
+      "SHA256": "A87EDC8D63E647DA6D6D4306193F5DC54C115CAA0E71ED8EB35434D5F6C22621"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/SsUsbDeviceCapabilityAttributes.cs",
+      "Bytes": 1720,
+      "SHA256": "F4AD77F1DBB17C0AF8DD1BF97DA138741025B9080EEB9AB03EB2DB14101A34B4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/SsUsbDeviceCapabilityDescriptor.cs",
+      "Bytes": 3519,
+      "SHA256": "3130229DF5A7B68186B9AC48F2E15B543328CA34760E5F3AE31AE6D45EA50DDE"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/StandardRequest.cs",
+      "Bytes": 3398,
+      "SHA256": "55E96ED2F6C4AA12FE132BA27EB05AFDA73C413C6118C8934C4A0282D40BBCFD"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/SupportedSpeed.cs",
+      "Bytes": 2216,
+      "SHA256": "BCD9BCABBE46FC5BFB84F5D30DB53AF942C23542D7E43EEFD2F76DCFABDE4C52"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Transfer.cs",
+      "Bytes": 4213,
+      "SHA256": "FE1C9FF7EEF5D040355C134CD9DEA124FC6B37A4441FAA1A8E9014798C711AC9"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/TransferDelegate.cs",
+      "Bytes": 1599,
+      "SHA256": "02AC4C21A8F1F617CB3339612AC026C89D4734FEA3B7E0ED4FE7A99C288C883E"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/TransferFlags.cs",
+      "Bytes": 2663,
+      "SHA256": "0F8B983F87E9E1B29B4773B319716D5ADE3C8D0795428C9CF095934F01D03A28"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/TransferStatus.cs",
+      "Bytes": 2591,
+      "SHA256": "D21E7A412DD61C85C73EEAF8CAB63305180D0A0FD6E26D95B2F0ED15F5FFEA99"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/TransferType.cs",
+      "Bytes": 2053,
+      "SHA256": "E434104C0B94A68A645133E28B22E86C15D1E989DF969C7489E1DB54AB431016"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Usb20ExtensionAttributes.cs",
+      "Bytes": 1687,
+      "SHA256": "E61EA1B8E2DDD9CBE502E4EC0607544DA5799EEB50D4403B8A62FAB9C87B339E"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Usb20ExtensionDescriptor.cs",
+      "Bytes": 2663,
+      "SHA256": "4AA82A307E4365BE32EA5564198F7224DC0635FAE70225EF8C4968AF4C756CB1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Generated/Version.cs",
+      "Bytes": 2394,
+      "SHA256": "52C687F82417721ACC35362E05EB1E3DAABAE301785F099B4E81C92A3CF869F4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Info/UsbBaseInfo.cs",
+      "Bytes": 2175,
+      "SHA256": "CFB58EB70D935CFE876FF51B49FDF91416F0720FBCACA92F9273196EEFE6BE3C"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Info/UsbConfigInfo.cs",
+      "Bytes": 4005,
+      "SHA256": "AEA67A313F4AAC756A60C1E9E96EF068A8A2FC5C0AE47E2915F27DCEB3EDB717"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Info/UsbDeviceInfo.cs",
+      "Bytes": 6199,
+      "SHA256": "6CE5613F380C253739893254427B6B0F32326B65FB7619DF84BE1FE15F178734"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Info/UsbEndpointInfo.cs",
+      "Bytes": 4520,
+      "SHA256": "217821C62BF7B49BF712EC3137E5FC23346BBDE66860939CA1A141707A247FD9"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Info/UsbInterfaceInfo.cs",
+      "Bytes": 5436,
+      "SHA256": "6F6A5925903EC35B1AEEE92098624D82DABFB8B7E931E0A21B7A6E01703EB2E1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/AsyncTransfer.cs",
+      "Bytes": 6352,
+      "SHA256": "C61C15ECC639B6B7BDDB7CF37E04396C0D69A12E2005F733849DCB088263AFF2"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/ErrorExtensions.cs",
+      "Bytes": 2987,
+      "SHA256": "E4F390D967C32035DBB8C6989D58AEC00F5E7E086F5CE1EC2E0741D20ECE3AB0"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/IUsbContext.cs",
+      "Bytes": 4172,
+      "SHA256": "79600CD6BFFDE35DA23BC7802BB2DD50A89D946D0609DA8D0C762F084FD8B6A1"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/IUsbDevice.cs",
+      "Bytes": 15903,
+      "SHA256": "11517EBBA03DABA07341A22BA3BC42EDCF242D77C2C6CA488DF55702B9745872"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/NativeLibraryVersion.cs",
+      "Bytes": 2163,
+      "SHA256": "4C1AEEC9335FB8466B9E2250FC01F68FBF4E6611AB9360866BC0066E16BD2401"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UnixNativeTimeval.cs",
+      "Bytes": 2292,
+      "SHA256": "C60E8D246E54503D1DEC170E24BF3FD8006BC40ACEECF0ECDA165669948D511F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbContext.cs",
+      "Bytes": 9565,
+      "SHA256": "EAC524FE8F765E4249947D3B1B6C1757DB583916CDED7C32AFDB71D1EDDCDE13"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbDevice.cs",
+      "Bytes": 3961,
+      "SHA256": "5AFAAB634E91E1A02A1576795216B6DC429B73EA43CD1212A0D226EAEC59C57E"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbDevice.Device.cs",
+      "Bytes": 9820,
+      "SHA256": "E09E8587D2156B5AB2FBCA9C12E5A842DE27A4C62BF05F554BB3489D22153491"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbDevice.DeviceHandle.Async.cs",
+      "Bytes": 1362,
+      "SHA256": "C454FA7EFEAFD03C208ADC64687471E2B94FBD5FD059F8DDE9C9C8B134F04154"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbDevice.DeviceHandle.cs",
+      "Bytes": 10944,
+      "SHA256": "10A3DE7FF4222C2F2E091140433E4EF25A625C0988F10E1A3083B09DAFAF964B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbDevice.Endpoints.cs",
+      "Bytes": 4841,
+      "SHA256": "988D0DA1302042F190564781F826D904437289321EC2E6C5E168F883A61E6049"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbDevice.Interfaces.cs",
+      "Bytes": 5910,
+      "SHA256": "AFE2C41A40F88DF76FB59CFBC5D79405C2FE811F237EA43AB2E8E0C5D80C7B7F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbDevice.KernelDriver.cs",
+      "Bytes": 4267,
+      "SHA256": "B022A52DAA261EBBF92C21BACBB2016F0DD9F52C51DFF56D861E9C3805022B28"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbDeviceCollection.cs",
+      "Bytes": 1832,
+      "SHA256": "4215B84BB92F7B2EC2DB9058B52C594F8F4EFBB860BAA64F487A01E1C3FC4313"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbEndpointBase.cs",
+      "Bytes": 10009,
+      "SHA256": "4AE4F335464FB769A366BE3862CEA360D4717AD84A65809D3F9466C266F39342"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbEndpointReader.Async.cs",
+      "Bytes": 4275,
+      "SHA256": "00FD9644CEE1DD19010C6B088E7C8FAFB406ADFB1DC40793AF9B2CD62520A84F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbEndpointReader.cs",
+      "Bytes": 6241,
+      "SHA256": "D2A5E4976A4B14838B304E702301BFD471F8D1682F40E1BBEB0F31610A303789"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbEndpointWriter.Async.cs",
+      "Bytes": 3419,
+      "SHA256": "26173D653920736935804F3352A5BFD18D138288C975770FCA141A1CEA3DFE1D"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbEndpointWriter.cs",
+      "Bytes": 4719,
+      "SHA256": "6A58838913E5A0FCE20FB455ACC1F0D2D8D1A48262A987E91A8367DBECD2B13A"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/LibUsb/UsbException.cs",
+      "Bytes": 2511,
+      "SHA256": "D32A54180B43D2801DE850CF0685FE1A54B20354C3D1ABEF319DB4DA9BE67C84"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/EndpointType.cs",
+      "Bytes": 1491,
+      "SHA256": "FFB436E9132ABB806074D36504ECD03158ACB364189402869AE8415159B5F73B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/Helper.cs",
+      "Bytes": 2036,
+      "SHA256": "7472CDE3054B61AADE14FD00D4F52040B8B844A23DB978E5325B57C629BB9D41"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/PinnedHandle.cs",
+      "Bytes": 5599,
+      "SHA256": "8B85807E960E888459E8F8F8DE0BCAA7EDCD0F18B1048AE9CBFE7AD6EFC6C828"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/ReadEndpointID.cs",
+      "Bytes": 2322,
+      "SHA256": "7F94A058ED217C60752371AA951645CD817B678C7E14664FBD067A9DB2C6673A"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/SafeContextHandle.cs",
+      "Bytes": 2365,
+      "SHA256": "FCB7D9CDAA3C1713DB52A993F2C08AEA2857106BE416E0A0C76F31F25E780644"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/UsbConstants.cs",
+      "Bytes": 1647,
+      "SHA256": "4AD8D84C5412C3949AE122CC08BEAF904E98F549AA47C4872C0734A547AFCADE"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/UsbCtrlFlags.cs",
+      "Bytes": 2258,
+      "SHA256": "05EB948EA9B6E28084863C62259527519D5EE3BD46152534CEF62E9852E707A4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/UsbDeviceFinder.cs",
+      "Bytes": 9980,
+      "SHA256": "EAFD5108803013AC3F44724858188404292244817C5742FCBC11DC04AB8786B4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/UsbRequestRecipient.cs",
+      "Bytes": 1558,
+      "SHA256": "819BD57E94541C0B5D2B65008C031604ABFD932066AC7C6FFFDA29A98D666B0A"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/UsbRequestType.cs",
+      "Bytes": 1567,
+      "SHA256": "AB389F9EE4D66241A6E1C95296A443D9E62675F6F3F26181E09DC32F349BFB24"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/UsbSetupPacket.cs",
+      "Bytes": 5461,
+      "SHA256": "4DF182BB2D94D74ADFF9D242324529B816569E48DC44220C29F355C4589DF1B6"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/UsbStream.cs",
+      "Bytes": 4151,
+      "SHA256": "E361A1EDE71A740C61D2CB32DDE758E3522D2E1E7B9E2CA3665B6897176FD020"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/LibUsbDotNet/Main/WriteEndpointID.cs",
+      "Bytes": 2318,
+      "SHA256": "DBC7A42A321EA98446FB090EF1E4F7345B22C74E68AC2FC87B179B199273FEDD"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/readme.md",
+      "Bytes": 548,
+      "SHA256": "290DA0636AD6CDB277443EC9187188CC3E303AD467F7F11242AE8A2190314A94"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/SDL2-CS-master/SDL2-CS.csproj",
+      "Bytes": 837,
+      "SHA256": "311648866474B7BC66BBBE54C520E601D9FA5FFDBB26895351DB873B70519AFD"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/SDL2-CS-master/src/SDL2.cs",
+      "Bytes": 293227,
+      "SHA256": "F9C4C2C1ACEBE138BC382B3C6B6E3983C945995CECD4E507BEF1AE23C5DFA1D4"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/SDL2-CS-master/src/SDL2_gfx.cs",
+      "Bytes": 22055,
+      "SHA256": "68B72E2327208F9640F9FD1555EDD9350BD67DE4756A7D71957DBDD5FC55251D"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/SDL2-CS-master/src/SDL2_image.cs",
+      "Bytes": 9533,
+      "SHA256": "EDFEA94A90D9E3DCFA13F880642CD4B94FC2E6E039217BD31600FA1DD0665F0B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/SDL2-CS-master/src/SDL2_mixer.cs",
+      "Bytes": 22053,
+      "SHA256": "C9999622498283B284088D4B064D8D38187DBAE6DD97C68B1D7C796DFFD41F1F"
+    },
+    {
+      "Path": "Source/Desktop/ThirdParty/SDL2-CS-master/src/SDL2_ttf.cs",
+      "Bytes": 23676,
+      "SHA256": "6309E90FFAD051ADD4202DD663ADC21F3B4E5D58362ED8C1CF84F5D190455E1B"
+    },
+    {
+      "Path": "Source/Desktop/ThirdPartyFixes/README.md",
+      "Bytes": 953,
+      "SHA256": "17A02A631D362C212BC9DCF46E7C54B2129F93FEF463DD56C7F33E517E45A1B0"
+    },
+    {
+      "Path": "Source/Desktop/ThirdPartyFixes/UsbContext.cs",
+      "Bytes": 8521,
+      "SHA256": "77BDE858EED26FE3A88EC25C1E53398F98833020E5A75EA8708EB60474B89E78"
+    },
+    {
+      "Path": "Source/Donor/donor.json",
+      "Bytes": 2275,
+      "SHA256": "E2ECCFAAC53B7215AF924B6A5D170264D84960F1B27678FEDF08586B97210069"
+    },
+    {
+      "Path": "Source/Donor/Makefile",
+      "Bytes": 1682,
+      "SHA256": "EC6DEF198DD53958E21E845DB8CBC202277A5CAA2CC62B03230DCD590DA229A0"
+    },
+    {
+      "Path": "Source/Donor/README.txt",
+      "Bytes": 799,
+      "SHA256": "6A295020CDC061AEC4F7E357BC485A803EE652935F28555969984D927C86A145"
+    },
+    {
+      "Path": "Source/Donor/source/main.c",
+      "Bytes": 4601,
+      "SHA256": "C1CB040DF7546FF5834F4FE96A377B85F24BF276D6DF778CD7CB44BF9B99D82C"
+    },
+    {
+      "Path": "Source/Host/atmosphere-patch/nxrp-libstratosphere.patch",
+      "Bytes": 2218,
+      "SHA256": "F6EA42C1BB5BA1AE103EAEBD95347A880EE543BA195C2F28A6EDB8A37FDF2AAF"
+    },
+    {
+      "Path": "Source/Host/atmosphere-patch/README.txt",
+      "Bytes": 1159,
+      "SHA256": "8851B87D83B242DC7CF96EDC728A67E284477EAB25969F09EFC66E438B0964AB"
+    },
+    {
+      "Path": "Source/Host/Makefile",
+      "Bytes": 1591,
+      "SHA256": "E4805148275A6314D423D4ADDAC91FDB0B9D10310536BC1A841D8F4E4449A6B3"
+    },
+    {
+      "Path": "Source/Host/nxremoteplay.json",
+      "Bytes": 5364,
+      "SHA256": "91C1FA6810EF4AC60BF5FFCFBA8B8F861D6739D461EA01B1AB278AA6775B9457"
+    },
+    {
+      "Path": "Source/Host/source/capture.c",
+      "Bytes": 17204,
+      "SHA256": "4CE1629AE875A5B9F3DD955B0A452F41984FD760EA610EA0262C7C24B128EC42"
+    },
+    {
+      "Path": "Source/Host/source/capture.h",
+      "Bytes": 4023,
+      "SHA256": "60F1CE447D582AE23CF4D420D44D47C8BB8EAA03FB9F94F2F3E886621C46DF6F"
+    },
+    {
+      "Path": "Source/Host/source/core.c",
+      "Bytes": 5028,
+      "SHA256": "FED1219323AE5B5C8D51CB2661B0A28B44F882AD01EF86D4409600DB7FC1D5D8"
+    },
+    {
+      "Path": "Source/Host/source/core.h",
+      "Bytes": 756,
+      "SHA256": "62ADC28E539AEA831DFE18C068DE7BD9429BBF3742969274528048C69BD28933"
+    },
+    {
+      "Path": "Source/Host/source/grcd.c",
+      "Bytes": 1306,
+      "SHA256": "F8DC818CD8812135570D82D355FBCC7C026CEE04FCACA5BE32645D15F2029132"
+    },
+    {
+      "Path": "Source/Host/source/grcd.h",
+      "Bytes": 1142,
+      "SHA256": "2D896B513064F2179FFA474DB52D720EBD2088CB79E913CD4B9F4912D64ED099"
+    },
+    {
+      "Path": "Source/Host/source/hidplus/con_manager.cpp",
+      "Bytes": 38467,
+      "SHA256": "36F8D6DB78C8585BD37B3EA4862E028B63047075EF8AC20996FB7C13CF5FBEF0"
+    },
+    {
+      "Path": "Source/Host/source/hidplus/con_manager.hpp",
+      "Bytes": 756,
+      "SHA256": "C0F812D4A615113D041168963680668B1FCC6D88B53CC7DC6276EC4F40104DFC"
+    },
+    {
+      "Path": "Source/Host/source/hidplus/hidplus_log.cpp",
+      "Bytes": 1167,
+      "SHA256": "823000BA047721F8D67C3EFD86F220D0AC0007B4DC97676C273CB0C7B7D2BD05"
+    },
+    {
+      "Path": "Source/Host/source/hidplus/udp_manager.cpp",
+      "Bytes": 5217,
+      "SHA256": "68A5E0FC12E793517BE46AE15410BD4EA6AA273B3E13A5FCB72F93C53731F7ED"
+    },
+    {
+      "Path": "Source/Host/source/hidplus/udp_manager.hpp",
+      "Bytes": 2304,
+      "SHA256": "D601F9D389566F09C833815701E594D20217534CCF7EBD2026E6C537B8AEC0D1"
+    },
+    {
+      "Path": "Source/Host/source/hybrid_policy.hpp",
+      "Bytes": 573,
+      "SHA256": "4D92A90120D4D796E7F886EBC59A4663D28F19330FD0F82F0804AF99D0EC003F"
+    },
+    {
+      "Path": "Source/Host/source/ipc/ipc.c",
+      "Bytes": 8162,
+      "SHA256": "ACFF0900959C3FEF5704C614B31166388348F4617CF00AB7DE5ED722101F4FB1"
+    },
+    {
+      "Path": "Source/Host/source/ipc/ipc.h",
+      "Bytes": 56,
+      "SHA256": "FA1D3195D1F81D18C1446D240B9756DC125B14A141A93E85D0FD37353AAC0DD4"
+    },
+    {
+      "Path": "Source/Host/source/modes/BridgeDelegation.h",
+      "Bytes": 2945,
+      "SHA256": "B9646C50587BCA36490A5DCE7E991EFF721109B468590025D266E85D3914C1A0"
+    },
+    {
+      "Path": "Source/Host/source/modes/BridgeOwner.c",
+      "Bytes": 10821,
+      "SHA256": "9D90EAB0603006B4B1999C659EDFEBE9F47ECFA8369E40716FCB27941F5CFF3F"
+    },
+    {
+      "Path": "Source/Host/source/modes/BridgeOwner.h",
+      "Bytes": 1483,
+      "SHA256": "C62F06443BB207626A3CB5774DA0F2D5A41F17253AB601C54EFE6BADDC580CC9"
+    },
+    {
+      "Path": "Source/Host/source/modes/BridgeOwnerProtocol.h",
+      "Bytes": 4235,
+      "SHA256": "D817D0457F2BB9F240CBFA7D60CBFD531BA1B407BF7B0F8BF8B7EA3ED5817EA1"
+    },
+    {
+      "Path": "Source/Host/source/modes/ClientInput.c",
+      "Bytes": 18822,
+      "SHA256": "16BD6DF4963C8EDE5C4F23C18A6A614664EDAB747B6BCC1DDC8A4048AC79E40C"
+    },
+    {
+      "Path": "Source/Host/source/modes/ClientInput.h",
+      "Bytes": 626,
+      "SHA256": "752776941CD1DB298EA52685FC8793B49832D4F9CE70AAB59E6C7D6FF388AF44"
+    },
+    {
+      "Path": "Source/Host/source/modes/defines.h",
+      "Bytes": 1963,
+      "SHA256": "27055D96CF56FF6A8044588BD90A6D12CAE87983FD34F653823C344113E37785"
+    },
+    {
+      "Path": "Source/Host/source/modes/DirectOwnerProtocol.h",
+      "Bytes": 1308,
+      "SHA256": "C74D5766A2BDB92B4776DD99A15718499C7E8AC089C5D6850EFA8246000D2F53"
+    },
+    {
+      "Path": "Source/Host/source/modes/HostingSnapshot.h",
+      "Bytes": 1316,
+      "SHA256": "E762EBE4BACF9F893E02AA4781D949B964F31335647F73F79DCE67404198F9E6"
+    },
+    {
+      "Path": "Source/Host/source/modes/modes.h",
+      "Bytes": 360,
+      "SHA256": "7D1E1CDC5F62CCFE185F9A421C4CA7E53A0D20B0C9D8D002F2F4FBDDF9344AB2"
+    },
+    {
+      "Path": "Source/Host/source/modes/OpusAudio.c",
+      "Bytes": 1419,
+      "SHA256": "5213F598B89E286A74F5AEA664783516484906FE00ACA3474DAF8DCAB15CC708"
+    },
+    {
+      "Path": "Source/Host/source/modes/OpusAudio.h",
+      "Bytes": 552,
+      "SHA256": "C1C9C1DBB54B16AAA2C1833E06A5B860027388983B0E4EBB60536AE1EDD2AB29"
+    },
+    {
+      "Path": "Source/Host/source/modes/pcm_accum.h",
+      "Bytes": 1284,
+      "SHA256": "E2AAD3D14200375D54CE58B9D787822FEB65B6005A5E54E485D22091260FF68F"
+    },
+    {
+      "Path": "Source/Host/source/modes/proto.c",
+      "Bytes": 6083,
+      "SHA256": "6226F381BDDAF01707B705469DEC8DC2B123C81FBE4047F7CE145B13ADF1F6C7"
+    },
+    {
+      "Path": "Source/Host/source/modes/proto.h",
+      "Bytes": 4345,
+      "SHA256": "80F240F33F6C47983A18F43E18F56A0FF7A6AC787722A7C94B04066E245A9F58"
+    },
+    {
+      "Path": "Source/Host/source/modes/PunchProbe.c",
+      "Bytes": 49448,
+      "SHA256": "BE601766361A2EC30E079259DC1046937E09632B8DA309C179ACE590FD8B59FC"
+    },
+    {
+      "Path": "Source/Host/source/modes/PunchProbe.h",
+      "Bytes": 3101,
+      "SHA256": "8BDED9B6E4E96CB14F944755BF28A3753756A969A26A8B6CD7EF4A2F37E420EA"
+    },
+    {
+      "Path": "Source/Host/source/modes/PunchWake.c",
+      "Bytes": 34014,
+      "SHA256": "3078F8B15B750C9913416B73769D3867074ACC255119E84D24E1B6C43FC13AE6"
+    },
+    {
+      "Path": "Source/Host/source/modes/PunchWake.h",
+      "Bytes": 1981,
+      "SHA256": "A6170D575E48BDB42D9171C0D890E8C75659DC1B995C68E509FB0A0B0F417900"
+    },
+    {
+      "Path": "Source/Host/source/modes/UdpmVideo.c",
+      "Bytes": 22242,
+      "SHA256": "B21ACF23668A75B00946CE89519D690977705D8E7AF8B7D1293869698632024A"
+    },
+    {
+      "Path": "Source/Host/source/modes/UdpmVideo.h",
+      "Bytes": 2324,
+      "SHA256": "9F072E3D7810F04BC749E7B01B9B7114D446B4F1FBA00209080C9AB2CDDA197B"
+    },
+    {
+      "Path": "Source/Host/source/modes/UsbAuto.c",
+      "Bytes": 27653,
+      "SHA256": "467B6446628F6C517463C9CBD390A66E360CC67A39327E60CD71EB8FFDF27E1F"
+    },
+    {
+      "Path": "Source/Host/source/modes/UsbAuto.h",
+      "Bytes": 223,
+      "SHA256": "F7C877E2028E45A018250076B5864CFB24E3D57C6E063CA8DDAAEE0446635BD6"
+    },
+    {
+      "Path": "Source/Host/source/modes/UsbControl.h",
+      "Bytes": 2770,
+      "SHA256": "BF589581729DB29ACEF42EC2A32A960F0F246DE30B3D0C0141A0AEF13DB9B377"
+    },
+    {
+      "Path": "Source/Host/source/modes/Viewers.c",
+      "Bytes": 27566,
+      "SHA256": "DBD5A65497945CDEB8F0DB613B0DB1AABBA99020FE04C5B79E635171173F8698"
+    },
+    {
+      "Path": "Source/Host/source/modes/Viewers.h",
+      "Bytes": 3827,
+      "SHA256": "CAD0D07C3246BAA5C998E619725849C0835304E866217939809F6A8ED1D61F37"
+    },
+    {
+      "Path": "Source/Host/source/net/delivery_control.h",
+      "Bytes": 5866,
+      "SHA256": "23E99851E5D788243FBC90099492DA4418D5E1A6AD382DB064F063C0CFBA83A4"
+    },
+    {
+      "Path": "Source/Host/source/net/server_config.h",
+      "Bytes": 7625,
+      "SHA256": "33D311D6070FC6ED13C1BAA010EC060728E84FA21CF05E6965A2F68960F990E5"
+    },
+    {
+      "Path": "Source/Host/source/net/sockets.c",
+      "Bytes": 26477,
+      "SHA256": "E60DD231ECCC17E035512A457BA807C8F278677A13ED1A4377CCC056C326E321"
+    },
+    {
+      "Path": "Source/Host/source/net/sockets.h",
+      "Bytes": 2838,
+      "SHA256": "7872A4A8A6BC5495A6239A2571F03E945798E9E70F34B84424B8909F3C3B0052"
+    },
+    {
+      "Path": "Source/Host/source/net/udp_nat.h",
+      "Bytes": 627,
+      "SHA256": "4D90C7B722F2140262501873D4486AB2906E34EDDD33E3431FEB753AAD1D2A4D"
+    },
+    {
+      "Path": "Source/Host/source/net/udpm_control.h",
+      "Bytes": 8069,
+      "SHA256": "D2D7517BDB11FF0B6570EC17200B6A99ECE91EF9AFEEE4C942A22AC15743DA8E"
+    },
+    {
+      "Path": "Source/Host/source/nvenc/nvenc_drv_h264.h",
+      "Bytes": 71681,
+      "SHA256": "8D4ED77B778BC69EDEE4D6E8ED0F5D851514A3A403CC0BB6486D636E8E237948"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_bitrate.hpp",
+      "Bytes": 5377,
+      "SHA256": "57BBDF8987AD075689FEAF8FC024211FEE8A638734EA595DE96FC98CCB624B63"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_deswizzle.hpp",
+      "Bytes": 3297,
+      "SHA256": "BF5EB808EFD742BB351D7FB7C4AC5B296E63589E6FB5B227242091079275CB1C"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_host_budget.h",
+      "Bytes": 500,
+      "SHA256": "E002C7B0FDF42F877A4A5C357690C809374DE61FF78B4D086DCAFBBE76C8E9E6"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_layers.cpp",
+      "Bytes": 31429,
+      "SHA256": "AE03E64E38D144245ECAB987823F191F92F5666CA9D94A197B639922B3BE84ED"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_layers.h",
+      "Bytes": 937,
+      "SHA256": "41689AE6653DB37EF3A42786DB60B86BEFC3EAD45D368357F3F32714CED207A6"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_present.hpp",
+      "Bytes": 2658,
+      "SHA256": "94ACA4D1C8FBEC942CFBC7292E2B7176DF08E92F03A2F95AEE313B5881C6CED3"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_source.c",
+      "Bytes": 7143,
+      "SHA256": "07C6CDB99C7BE7AE2AC7A9FADC9AC40761652983A30A71EBE49E4034DDB4695C"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_source.h",
+      "Bytes": 429,
+      "SHA256": "23274BA7085245AA93C104B30DB5ECCAAA2CD647FBFCED68DC8113B9DE00D973"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_am.cpp",
+      "Bytes": 12566,
+      "SHA256": "6AC9CF013BADE43C7C8E72247B06676732BB3C86944C54D1B22D27B118771E10"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_am.hpp",
+      "Bytes": 4108,
+      "SHA256": "C4AAB322B9AB3BACA271B6F11C60B0FAC80F8897D93EBDE13B42538B07F218F2"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_clk.cpp",
+      "Bytes": 8572,
+      "SHA256": "F45C3C5C234BE1AA90166CA1413F176E886A268F3EC9E1D36532087C501CB5A9"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_clk.hpp",
+      "Bytes": 1558,
+      "SHA256": "C3249382243FE0EFC554E9BD93EFBCFA060B141DE30CD4A97F71D642260B0FA2"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_control.cpp",
+      "Bytes": 2600,
+      "SHA256": "3D5574F70D99D249A199B7ACCCD4A119D4F7AD5792A01116FF21F13A08ACD3DE"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_control.hpp",
+      "Bytes": 823,
+      "SHA256": "D1BFDF968DC04082CDFFF6533AA3662C1DA5B98957DB6B750D8A19F0C01137E5"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_dbgpump.cpp",
+      "Bytes": 12770,
+      "SHA256": "13312468E6F6127BD5121A6934D5B016661ED1D6AF8DEE48079A61ECCD6743B9"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_dbgpump.hpp",
+      "Bytes": 1741,
+      "SHA256": "EFDD3BC2DE0DF9A441DFA3E4518015D578F08A8A6E16A90E836F5DAA7E511590"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_dmdbg.cpp",
+      "Bytes": 6419,
+      "SHA256": "999F26B2F85109352B7F0EF4D761BB49D25AC5F28BE8D91970F0FCC2F820F180"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_dmdbg.hpp",
+      "Bytes": 2408,
+      "SHA256": "43429A294A58939E5AC83DCCB4DF904E927F90B2DFB6CC90A5C05CBCDE2D447A"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_donor.cpp",
+      "Bytes": 16643,
+      "SHA256": "E9528D610C68D4F01756090D341CFDB8F4B35357595B6411F0741C4B3F10E88F"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_donor.hpp",
+      "Bytes": 2257,
+      "SHA256": "F28432653384D7706D4A32FAB6F72DE7D9259F200DB39933AA3581F3E9A50B29"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_gbuf.cpp",
+      "Bytes": 2835,
+      "SHA256": "CEC70BC8E9B719B9CC66C25DE25866EDE8DB66711168C0AA9DFA73CF827E05C0"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_gbuf.hpp",
+      "Bytes": 3405,
+      "SHA256": "3DAABEB3F7A81793FBE38371EFA72BA2E13366C60415262733CEB58F3C730535"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_log.cpp",
+      "Bytes": 20725,
+      "SHA256": "5117213BD4B86E9313593C57837FC36DE2B9E0172A02C67E882C6DD9DAAB85B6"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_log.hpp",
+      "Bytes": 6479,
+      "SHA256": "A01A07ECD4583CD20F2639E86115461D28A8B7AE623A4377C0A0FE7099C0828A"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_nv.cpp",
+      "Bytes": 220678,
+      "SHA256": "50C618904DA7BA64C6EC762FDF7622ACE8205A82AAB7B1EF015104B86D243712"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_nv.hpp",
+      "Bytes": 6816,
+      "SHA256": "87F06DDB53B9DF208C218533C45230616658B4353C3BEABDB38742C0668118B7"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_service.cpp",
+      "Bytes": 33348,
+      "SHA256": "FC0EF39EEECF70698495B5D96470D2EA82318ABC8822F3F099AC28FFD08105B0"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_service.hpp",
+      "Bytes": 9969,
+      "SHA256": "9A0C0EF6F984B21E149DEF4C1832BB08E670472DDD83E823FB153610F6BEEDBF"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_slotmatch.hpp",
+      "Bytes": 8797,
+      "SHA256": "233ACE6D1EBA188E8B3984916BE19B58397E010059D662BFE396CBD190DAAD75"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_sm.hpp",
+      "Bytes": 743,
+      "SHA256": "43B64643A098224DAA6F1DC08A2B80549B3C25A5E6BD4EFB5524E8287DFE68DD"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_uibinder.cpp",
+      "Bytes": 16339,
+      "SHA256": "74522375B705359EE301D3DA0A095BCFD858E7275994F7FFB5E0FCAF2B65F92F"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/applet_mitm_uibinder.hpp",
+      "Bytes": 6914,
+      "SHA256": "4EF9D234C279614277FBF2749C05CC35EDDC9BE44071F6EDB363A260E5D45C99"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/hybrid_focus.hpp",
+      "Bytes": 239,
+      "SHA256": "07C786BD02599991399ECC1D29EFC544A43CE8A8CCDE6C78479ABC8EB90DCE2A"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/nvenc_drv_h264.h",
+      "Bytes": 71445,
+      "SHA256": "82F9D063CBDE78C9D940822256E8B85A0DC01CDFBC1B2822B24D4BB036872AB5"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/nvenc_grc_hdrs.h",
+      "Bytes": 863,
+      "SHA256": "FAECC65B9319279C1D8FDEA55AD7C83542829F31470AA0877D6C716A2612E4DF"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/nvenc_grc_idr.h",
+      "Bytes": 25949,
+      "SHA256": "FD232ECC6F7B3575042341F72DBDFC76F3994ABFEAA2B3657102B7C5070AC51F"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/nvenc_grc_p.h",
+      "Bytes": 25930,
+      "SHA256": "1DC7500817458BF153686517406EBCDF9BBE3F9CDF2A0C314DEB42C9DD981331"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/nxrp_video_runtime.cpp",
+      "Bytes": 11422,
+      "SHA256": "2C73D6027F64D487E211376407FB3496D3490B5F7C340178DC4C37EFADCE8ECF"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/nxrp_video_transport.cpp",
+      "Bytes": 3075,
+      "SHA256": "6E0B33368CBE22F5419E433CA387B5B2765CF5E996D95EF7B5D3D9DFDC6E8B0B"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/vic40_config.hpp",
+      "Bytes": 10935,
+      "SHA256": "32035273DEDEFA07EC3BD561EC9CA0C755375FB235FB4158BAF05C2A50CAA86A"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video/vic_csc_bt709.h",
+      "Bytes": 325,
+      "SHA256": "3C0F57E215CACAC64D7E766E11C303B47F4C4251F67338489617AB0EB4A6575E"
+    },
+    {
+      "Path": "Source/Host/source/nxrp_video.h",
+      "Bytes": 1154,
+      "SHA256": "295BEDE6C62D1EA4E2EF3324BB5B030E94909CAF0F3C11A9641F52C1A084FAA4"
+    },
+    {
+      "Path": "Source/Host/source/sysmodule/main.c",
+      "Bytes": 8413,
+      "SHA256": "AC7722350CCE6A96F8C10A28A774B1E3D0527F753BCD1798F6475C170AA95B33"
+    },
+    {
+      "Path": "Source/Host/source/sysmodule/unified_entry.cpp",
+      "Bytes": 1526,
+      "SHA256": "5D6D3560439D64226E00A10EC336430E053966FDEB671BB00CDD5C00821D57F9"
+    },
+    {
+      "Path": "Source/Host/source/sysmodule/unified_entry.h",
+      "Bytes": 507,
+      "SHA256": "91A6389A227875FF0E958561AFB84F3A028EEA9064D6210FDEF4ED7973000105"
+    },
+    {
+      "Path": "Source/Host/source/sysmodule/unified_malloc_bridge.cpp",
+      "Bytes": 477,
+      "SHA256": "B82B294F8E045BC351EC4593E994DF7F8DC47F1C94BC54D2700B25EDB95FF8CB"
+    },
+    {
+      "Path": "Source/Host/source/third_party/nanoprintf.c",
+      "Bytes": 617,
+      "SHA256": "49FE6E399CBD412D6F0139AAF656EEC89B0EAFBFE7446A94CC3439AB2DBFBA15"
+    },
+    {
+      "Path": "Source/Host/source/third_party/nanoprintf.h",
+      "Bytes": 37590,
+      "SHA256": "60A432859C961D84C83AF98CCD166CE7FD3A16C43672C2CB0DADA1D7D5A25D59"
+    },
+    {
+      "Path": "Source/Host/source/udpm/udpm_fec.c",
+      "Bytes": 3481,
+      "SHA256": "BCBDF04D042A23CE4563573FC987FDDE3FE96098FD82B6399DF0AE8978FD1BED"
+    },
+    {
+      "Path": "Source/Host/source/udpm/udpm_fec.h",
+      "Bytes": 1238,
+      "SHA256": "2143FC888A3EE04ADCC461D7EE9B51589D28175FF5A86AA6BB5C028F8166F50A"
+    },
+    {
+      "Path": "Source/Host/source/udpm/udpm_proto.c",
+      "Bytes": 6101,
+      "SHA256": "FA5FDE90E0FABE6732B1031857FE5CC0F1E5D12A6F23A74B873F03E9F72455E5"
+    },
+    {
+      "Path": "Source/Host/source/udpm/udpm_proto.h",
+      "Bytes": 5410,
+      "SHA256": "76E65BE858F13A4769277F2BD3DBFD5D82DE21A077563CF5D3A2C48F30BBFFC9"
+    },
+    {
+      "Path": "Source/Host/source/udpm/udpm_sender.c",
+      "Bytes": 6188,
+      "SHA256": "5B85D3CCBCDF7E9515FD11D422ED7E8D01BE0CF332E9C112E1A111DEBDBC6E62"
+    },
+    {
+      "Path": "Source/Host/source/udpm/udpm_sender.h",
+      "Bytes": 3268,
+      "SHA256": "151A5F0A294515DE3B3D0831AFC3428B7E9B99D88431FD1F6FA440FE3D36D0FC"
+    },
+    {
+      "Path": "Source/Host/source/USB/Serial.c",
+      "Bytes": 1091,
+      "SHA256": "24DAED7C36C35365E3B957F12A7B08A28F5FC33C3C024CCCA8C403F6BE9C402E"
+    },
+    {
+      "Path": "Source/Host/source/USB/Serial.h",
+      "Bytes": 246,
+      "SHA256": "52A4E2FE34BB0A98B4D3B10A10B57C95DA532D8D18C1961630A3923EC3FB49E6"
+    },
+    {
+      "Path": "Source/Host/source/USB/UsbComms.c",
+      "Bytes": 27210,
+      "SHA256": "6B42BC8799B2AA05612D973CBA1268ED83A2D44EAE71A370318D7C179E193EE3"
+    },
+    {
+      "Path": "Source/Host/source/USB/UsbComms.h",
+      "Bytes": 1254,
+      "SHA256": "4F368A1EAE5D52ADC3E7C66D47EDB672BD2B04F352AD2C74A1A18BEDAB5D9BC9"
+    },
+    {
+      "Path": "Source/Host/source/USB/UsbTransferWait.h",
+      "Bytes": 1531,
+      "SHA256": "A81EBA90A6F2891C437ED8FABE06A6FE82182A39F2CE6A9CA63766B475547C9D"
+    },
+    {
+      "Path": "Source/Host/source/util.c",
+      "Bytes": 653,
+      "SHA256": "7CA1DA900C6A51DBF90B711CE3BE945F9976542693A6CD68FA190B0E9586F626"
+    },
+    {
+      "Path": "Source/Host/source/util.h",
+      "Bytes": 79,
+      "SHA256": "357CC5F39132F70F21DBCC35C34040F4134ECDD32C61C0B25A9528564A8EFF7C"
+    },
+    {
+      "Path": "Source/Host/system_module.mk",
+      "Bytes": 5888,
+      "SHA256": "0A47890B1799F8F26E886A1C382410AA64E9C7B1839F94DF5015F328922CFB18"
+    },
+    {
+      "Path": "Source/Nro/icon.jpg",
+      "Bytes": 12769,
+      "SHA256": "6CB6B37B4A1619E370956BF5A530F092B5DCBBFA42CB859D648AE64384DF8008"
+    },
+    {
+      "Path": "Source/Nro/Makefile",
+      "Bytes": 8608,
+      "SHA256": "65FB9E4DEF186D9A850699C473D78DFBA941CB94F57B1850AEE1E0F35116ACEC"
+    },
+    {
+      "Path": "Source/Nro/romfs/app_logo.png",
+      "Bytes": 9203,
+      "SHA256": "6921D4544305449BAC77665A10B04EA7F04A9ECFAA29E5042231BD617FDA407B"
+    },
+    {
+      "Path": "Source/Nro/romfs/connect_joycon_wireless.png",
+      "Bytes": 7808,
+      "SHA256": "1A626F3E6BA8A95B320FD82E5FE6C63B287E7580DB864955087F39384C3DF7D7"
+    },
+    {
+      "Path": "Source/Nro/romfs/fonts/Baloo2-ExtraBold.ttf",
+      "Bytes": 421800,
+      "SHA256": "EDB8730B405C39FA584CBB458215025D0961F257FC4B2C337AD82237ED7802FC"
+    },
+    {
+      "Path": "Source/Nro/romfs/fonts/Baloo2-SemiBold.ttf",
+      "Bytes": 422332,
+      "SHA256": "242379EFDC74AA7DF2DAF6760FC0A6E59F55C4C2EEF31AC9ED6AFE48A4680E3F"
+    },
+    {
+      "Path": "Source/Nro/romfs/host_this_switch.png",
+      "Bytes": 3375,
+      "SHA256": "82F0FB283DC65A29496DED014F3F2A8F32A142BC14AA3C6B169D27F51822B7B7"
+    },
+    {
+      "Path": "Source/Nro/romfs/logo.png",
+      "Bytes": 9054,
+      "SHA256": "83599202CB153FAF6F49810924DA83A0EC471F4B35CE2B96928D01C0C06A7EF9"
+    },
+    {
+      "Path": "Source/Nro/romfs/troubleshooting.png",
+      "Bytes": 2309,
+      "SHA256": "0022E8FDB161035F7C6A316048418C568634A0C7C01235976D041F2F4D36AD8C"
+    },
+    {
+      "Path": "Source/Nro/source/HostProtocol/defines.h",
+      "Bytes": 1959,
+      "SHA256": "F7AD7D83579A5D7E45305911A165536BC7C83B0FA0FF604BB4BCB6DA038B15A4"
+    },
+    {
+      "Path": "Source/Nro/source/HostProtocol/HostingSnapshot.h",
+      "Bytes": 1001,
+      "SHA256": "E51F035BC037732B70F85B5825467837150FFB7EDD7EB4A9C0F3299FA9A68FC2"
+    },
+    {
+      "Path": "Source/Nro/source/HostProtocol/server_config.h",
+      "Bytes": 7625,
+      "SHA256": "33D311D6070FC6ED13C1BAA010EC060728E84FA21CF05E6965A2F68960F990E5"
+    },
+    {
+      "Path": "Source/Nro/source/HostProtocol/udp_nat.h",
+      "Bytes": 627,
+      "SHA256": "4D90C7B722F2140262501873D4486AB2906E34EDDD33E3431FEB753AAD1D2A4D"
+    },
+    {
+      "Path": "Source/Nro/source/ipc.c",
+      "Bytes": 2983,
+      "SHA256": "18D1454F07F38E12FC7EF6BD76FC3E9C74CA57B87992DFCEDCBFD16573FD5C28"
+    },
+    {
+      "Path": "Source/Nro/source/ipc.h",
+      "Bytes": 1480,
+      "SHA256": "4025D1D4EFD91197A2D255B0EF23F4761AE039DE28D877233CABC6EC6D9E1C49"
+    },
+    {
+      "Path": "Source/Nro/source/Libs/nlohmann/json.hpp",
+      "Bytes": 932454,
+      "SHA256": "2DD8DB723CFF3E44198E14D6038EA6443DC6171A564BB82CD6EE81F0EDC316E5"
+    },
+    {
+      "Path": "Source/Nro/source/main.cpp",
+      "Bytes": 6257,
+      "SHA256": "90909DD659831A25A679FE44152C354472804F73954D99F287B0A93A448CEC3A"
+    },
+    {
+      "Path": "Source/Nro/source/Network/AudioPlayer.cpp",
+      "Bytes": 5604,
+      "SHA256": "592D806793E54C55223D2DDFC967CDC02B5B33C27E021E11F358EB46D21DFD17"
+    },
+    {
+      "Path": "Source/Nro/source/Network/AudioPlayer.hpp",
+      "Bytes": 1068,
+      "SHA256": "DC069A0D5607F0DA37DE63E2D583BAD58C9BE53CC69ABE1B738C72B96D198211"
+    },
+    {
+      "Path": "Source/Nro/source/Network/ConnectorMedia.cpp",
+      "Bytes": 6760,
+      "SHA256": "47D81E0C7B974DE401D78F2D4A36190A18F21E5164160F9DA271ABE4AB8604EA"
+    },
+    {
+      "Path": "Source/Nro/source/Network/ConnectorMedia.hpp",
+      "Bytes": 2919,
+      "SHA256": "7BF94FB12A0FB1F01DB611D8D2F243672CB7F606009C2AF35AA82917A6D9B604"
+    },
+    {
+      "Path": "Source/Nro/source/Network/DnsClient.cpp",
+      "Bytes": 8107,
+      "SHA256": "0CEAEC1CF6EB0C04FE500164C59F26B324AA87C10C89AE41977E31341FE0C8DD"
+    },
+    {
+      "Path": "Source/Nro/source/Network/DnsClient.hpp",
+      "Bytes": 892,
+      "SHA256": "C39EC4DD6C932DCD81403B7BDB77DBDF948E83081E470EC762DAFD37A56ED8FA"
+    },
+    {
+      "Path": "Source/Nro/source/Network/H264StreamDecoder.cpp",
+      "Bytes": 4073,
+      "SHA256": "86B0A97AB3CF404213E17AE073AE3956106F33A2F7309F71F48632DA08EEED76"
+    },
+    {
+      "Path": "Source/Nro/source/Network/H264StreamDecoder.hpp",
+      "Bytes": 2827,
+      "SHA256": "D43C393FDE86A63F6B580B62B397A38A24629AB17D7ED1DE27D77F9A8BAC654C"
+    },
+    {
+      "Path": "Source/Nro/source/Network/LogExport.cpp",
+      "Bytes": 5106,
+      "SHA256": "2531C4F170CF56F86B9B357B88F83B4902F52FE3D18A4752FCAC6C589BFBB705"
+    },
+    {
+      "Path": "Source/Nro/source/Network/LogExport.hpp",
+      "Bytes": 550,
+      "SHA256": "C76F8994D11AF17ADDD42F534B94139ED6F921045DAEFC7816DE45712425A305"
+    },
+    {
+      "Path": "Source/Nro/source/Network/Playout.hpp",
+      "Bytes": 8010,
+      "SHA256": "C70C5E07EB9EC4E8AEE97FAA5696EA0959223D7AEA423CC9211FB6D642C77132"
+    },
+    {
+      "Path": "Source/Nro/source/Network/PunchConnector.cpp",
+      "Bytes": 42742,
+      "SHA256": "ADFF47E509674AE9554A563BD06F8F5C0BF6DF768EA7DF5EB436F5A51C90A82C"
+    },
+    {
+      "Path": "Source/Nro/source/Network/PunchConnector.hpp",
+      "Bytes": 2883,
+      "SHA256": "18E80E476651DAF7ABB8B41F845FC37BE8AFAAA293DE7C15481B7343339FBEED"
+    },
+    {
+      "Path": "Source/Nro/source/Network/RendezvousClient.cpp",
+      "Bytes": 7240,
+      "SHA256": "F6C9524FD9C19B0A11F779D91356A11DD46B68AC4F6A133A187A8C8C4AC9C8B2"
+    },
+    {
+      "Path": "Source/Nro/source/Network/RendezvousClient.hpp",
+      "Bytes": 1468,
+      "SHA256": "BFC29D347F692B5FBC1C690876B7F27413D8268C2DA5EB1654DAD11CAD86F679"
+    },
+    {
+      "Path": "Source/Nro/source/Network/RendezvousTransport.hpp",
+      "Bytes": 870,
+      "SHA256": "F44E1F07F6FDC184F90F7B32A5FC283DC9D6F5A6267FA8605ED7791123546569"
+    },
+    {
+      "Path": "Source/Nro/source/Network/StreamLoop.inc",
+      "Bytes": 9285,
+      "SHA256": "4029F1E77AEA5483549326D9F8E41CD219DC17EBF99807B338FCD84984F302B8"
+    },
+    {
+      "Path": "Source/Nro/source/Network/TicketLogRedaction.hpp",
+      "Bytes": 681,
+      "SHA256": "A65A9540BDD602BA524F24270E92DCB567AC4D685703C8A4E6AD8935DE587451"
+    },
+    {
+      "Path": "Source/Nro/source/Network/UdpVideoSession.cpp",
+      "Bytes": 11306,
+      "SHA256": "27727BC388A9C60E6760727B094E8E480F5E214DEDEB94848625D85482D2095B"
+    },
+    {
+      "Path": "Source/Nro/source/Network/UdpVideoSession.hpp",
+      "Bytes": 4134,
+      "SHA256": "FC33E095DD56D537D027B68C55E6023C08865497D0F173E345DF186CDB1B6AFB"
+    },
+    {
+      "Path": "Source/Nro/source/Network/UpdateCheck.cpp",
+      "Bytes": 8188,
+      "SHA256": "9D15035BE3C25E35B448109BADE6AA9148EFD094131C518C6FE597CC5431DFB9"
+    },
+    {
+      "Path": "Source/Nro/source/Network/UpdateCheck.hpp",
+      "Bytes": 1241,
+      "SHA256": "CDC6E0615ACC94EA5E69D5538517087A47A6B8AF7FA00362963535E1DA8E2A0A"
+    },
+    {
+      "Path": "Source/Nro/source/Platform/fs.cpp",
+      "Bytes": 1008,
+      "SHA256": "ABB34A95A51DA15E1458FF5D1784C944CE57C3EFC47B1C679FC4A1AA33D91EBA"
+    },
+    {
+      "Path": "Source/Nro/source/Platform/fs.hpp",
+      "Bytes": 628,
+      "SHA256": "553F73564FF702D08AF5B7A5158C18524EF5EE44DA9F1C60FB7F6264382A3404"
+    },
+    {
+      "Path": "Source/Nro/source/Platform/Platform.hpp",
+      "Bytes": 292,
+      "SHA256": "05E7D539C99E4D3566D548A3C18BDAD32132B403EA06A3F6D9C8789512877828"
+    },
+    {
+      "Path": "Source/Nro/source/Platform/PlatformFs.hpp",
+      "Bytes": 134,
+      "SHA256": "5E754936262D7FD61139A016DB2B090DE1FDCCB42A24AE5B02A24B2F18322826"
+    },
+    {
+      "Path": "Source/Nro/source/Platform/PlatformSwitch.cpp",
+      "Bytes": 3384,
+      "SHA256": "E3D3B86F99B1251D96F7B0F6AEE7FD688598A4E60A3FB80469225A054CDBF81E"
+    },
+    {
+      "Path": "Source/Nro/source/Scenes/Common.hpp",
+      "Bytes": 6738,
+      "SHA256": "0ACE7F165315232816F7031E75F5D21996B1C60F395A91E31FE75B7203D9ABF1"
+    },
+    {
+      "Path": "Source/Nro/source/Scenes/SceneHost.cpp",
+      "Bytes": 108467,
+      "SHA256": "DB6A091B622E735F4A1A0F4F3098AA9E1EA60EF46EDD791F837E9312F5EE4AA4"
+    },
+    {
+      "Path": "Source/Nro/source/Scenes/Scenes.hpp",
+      "Bytes": 448,
+      "SHA256": "0BEFCC4E1654CB628B7080850B95D66B997E3D3A6022F68703D5CCFE608EF2AC"
+    },
+    {
+      "Path": "Source/Nro/source/translaton.cpp",
+      "Bytes": 338,
+      "SHA256": "89BE77E38B5D40CD4BBB059E7B743F38FF27ACA43282B5DCF259C19C0744D5ED"
+    },
+    {
+      "Path": "Source/Nro/source/translaton.hpp",
+      "Bytes": 428,
+      "SHA256": "C6CF8FC2BD288982533909CDBBADF2495D58E8D283C6BC2FAA7D910E2CF88459"
+    },
+    {
+      "Path": "Source/Nro/source/udpm/udpm_fec.c",
+      "Bytes": 4294,
+      "SHA256": "34FBE11461A2E5A4F54A66BF4F27F14B2ECD33E118295B8469F30A91C3953564"
+    },
+    {
+      "Path": "Source/Nro/source/udpm/udpm_fec.h",
+      "Bytes": 1290,
+      "SHA256": "52AB5B8C90D729D0BA2CC8FBAEB034813F99981D5095D279B85F4D951B37B476"
+    },
+    {
+      "Path": "Source/Nro/source/udpm/udpm_proto.c",
+      "Bytes": 6336,
+      "SHA256": "CBFFFA409CFF86E7FD44BE941319D425CA95F152FB99D8028C74E42D0C6B252C"
+    },
+    {
+      "Path": "Source/Nro/source/udpm/udpm_proto.h",
+      "Bytes": 5702,
+      "SHA256": "9ECB03635822C5892EF090BE58E1998D942647D89589E6039D6E6247B4F28536"
+    },
+    {
+      "Path": "Source/Nro/source/udpm/udpm_receiver.c",
+      "Bytes": 10951,
+      "SHA256": "B363D8283A2D2C0E4F515467DB02D70BE09DC62CB567D44BD1546A020AC8E508"
+    },
+    {
+      "Path": "Source/Nro/source/udpm/udpm_receiver.h",
+      "Bytes": 3146,
+      "SHA256": "0C629DAD15EE664EA715610C34CC11BAE5813EB24E27F4E7F277B4B63E5A4C4D"
+    },
+    {
+      "Path": "Source/Nro/source/UI/glad.c",
+      "Bytes": 88738,
+      "SHA256": "DFBF1DAE6567994A23C0EE4AD6FA7945C903D7835ABE83E6CAD643543542598D"
+    },
+    {
+      "Path": "Source/Nro/source/UI/glad.h",
+      "Bytes": 180050,
+      "SHA256": "5AD7FCBDC012D56E290997C4696DCF332C01170B753A9E40B878D5862560E1EE"
+    },
+    {
+      "Path": "Source/Nro/source/UI/Image.cpp",
+      "Bytes": 2652,
+      "SHA256": "49D2B629659ECBB842B8D1C6A367BF5849A83CD8DDCA0119E5069D60CD6E1729"
+    },
+    {
+      "Path": "Source/Nro/source/UI/Image.hpp",
+      "Bytes": 872,
+      "SHA256": "DFE02215F6E2AC13AAFB3236E4B650A0B07E8E6217B242BF868D6A8B2F6AF711"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imconfig.h",
+      "Bytes": 6070,
+      "SHA256": "9C1B7121851B88A86997BA75615AA6B3498967BA343BD286528830FC52344DA9"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imgui.cpp",
+      "Bytes": 509240,
+      "SHA256": "BCCA4A9D7C7034E2C4D8D5CC9CF3E9D3BA0CD9B7F11F2BA1D9C62C505986066C"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imgui.h",
+      "Bytes": 216015,
+      "SHA256": "0FE02E5C82052F6A02F836A97F80B62FA4248831E623E7AC663D12B9768ACC19"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imgui_draw.cpp",
+      "Bytes": 170123,
+      "SHA256": "A5D00FC5B663DEFE00905DC00DA5E49574B073C6117F0732ECF06DC76945E9E0"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imgui_impl_opengl3.cpp",
+      "Bytes": 27619,
+      "SHA256": "216B14D4781F82BC7FF0F1BB3509BC65CE596EE0C345A7AB37DE055354F2E077"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imgui_impl_opengl3.h",
+      "Bytes": 3544,
+      "SHA256": "15D14CD561DFD7513F6FBB96E9AF333481C7A68EC3ADEC3420EE5DF44BEF0219"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imgui_internal.h",
+      "Bytes": 114843,
+      "SHA256": "8A3B622090E70361E81EA1A1AD5D4FAA59CE3C78E93F30C492F7BC0BB8C4A5E3"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imgui_widgets.cpp",
+      "Bytes": 342906,
+      "SHA256": "B56C03A2A892921DC30D99AC76E191914653351B57C606383CFDD26551DFDB85"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imstb_rectpack.h",
+      "Bytes": 20892,
+      "SHA256": "C3554A8A14817FDFEBCD92A10A90D483FBE9FBAFA71933D9A30D55EB36E22513"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imstb_textedit.h",
+      "Bytes": 54861,
+      "SHA256": "D0E44CD30757B088493ED409265E3674297095A9A3E11FD9C01BB597E5D400D1"
+    },
+    {
+      "Path": "Source/Nro/source/UI/imgui/imstb_truetype.h",
+      "Bytes": 197320,
+      "SHA256": "2AB240419BF83BBA467E804020F2CA29134D87DEA107F37BEBBD4EB4E9AEBB1E"
+    },
+    {
+      "Path": "Source/Nro/source/UI/stb_image.h",
+      "Bytes": 280912,
+      "SHA256": "9D0F57DD527C019C305A3DEDD8D1FA9523BCC0E3CF690D2F8224AAF0FD892631"
+    },
+    {
+      "Path": "Source/Nro/source/UI/UI.cpp",
+      "Bytes": 10582,
+      "SHA256": "89BEEA00992A4556601AB6BD2A336A74B8FB1F936583F5A850054CA84E289665"
+    },
+    {
+      "Path": "Source/Nro/source/UI/UI.hpp",
+      "Bytes": 729,
+      "SHA256": "A6AAB3135F3D6857DC3CD86025564D5EF5C82EDED29256E63D92C028CA3CD2D5"
+    },
+    {
+      "Path": "Source/Nro/source/UI/VideoTexture.cpp",
+      "Bytes": 9790,
+      "SHA256": "4BD57D051C5A8F92BF730212657A7D78AA8963D2178111DB3E30C9C673EF6159"
+    },
+    {
+      "Path": "Source/Nro/source/UI/VideoTexture.hpp",
+      "Bytes": 1988,
+      "SHA256": "01ADC2D5859C295AAE167F5A54B422BE40A44D77B8AE7CE9AC3D7DD42A8C5533"
+    },
+    {
+      "Path": "Source/ReleaseLicences/BouncyCastle-2.7.0.txt",
+      "Bytes": 1186,
+      "SHA256": "BE0592A6C76F398356FBF252A4FB43476FB3CA3C45331428C2F4F22C499E8311"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Common.Logging-3.4.1.txt",
+      "Bytes": 11558,
+      "SHA256": "1EB85FC97224598DAD1852B5D6483BBCF0AA8608790DCC657A5A2A761AE9C8C6"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Concentus-2.2.2.txt",
+      "Bytes": 2200,
+      "SHA256": "C17F3900E66526E46B23839B62E4B507B03A51CC262D925FB8AD5C753AFC0026"
+    },
+    {
+      "Path": "Source/ReleaseLicences/DnsClient-1.8.0.txt",
+      "Bytes": 11357,
+      "SHA256": "B40930BBCF80744C86C46A12BC9DA056641D722716C378F5659B9E555EF833E1"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Dotnet/microsoft.aspnetcore.app.runtime.linux-x64-9.0.19-THIRD-PARTY-NOTICES.TXT",
+      "Bytes": 55638,
+      "SHA256": "52AF3D603B6D069E635F8AFD08EC44EC01559255B5F3AFD161AE9E6FE7E7AA54"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Dotnet/microsoft.aspnetcore.app.runtime.win-x64-9.0.19-THIRD-PARTY-NOTICES.TXT",
+      "Bytes": 56748,
+      "SHA256": "307D014F65D8482314F1400DDEAE7A0CBABB96C2207BCC77F6233CC10588E5D9"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Dotnet/microsoft.netcore.app.runtime.linux-x64-9.0.19-LICENSE.TXT",
+      "Bytes": 1116,
+      "SHA256": "CFC21F5E8BD655AE997EEC916138B707B1D290B83272C02A95C9F821B8C87310"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Dotnet/microsoft.netcore.app.runtime.linux-x64-9.0.19-THIRD-PARTY-NOTICES.TXT",
+      "Bytes": 74244,
+      "SHA256": "FA3E9D0A2C52476F04FE798D7DC4F6E7EDB7B68A3D2F4D5F59A39BCE957EEDC8"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Dotnet/microsoft.netcore.app.runtime.win-x64-9.0.19-LICENSE.TXT",
+      "Bytes": 1139,
+      "SHA256": "D7A68596AB69B06F51CA278A6545148E4269A9381C26D597C13DF5D88E08CF5B"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Dotnet/microsoft.netcore.app.runtime.win-x64-9.0.19-THIRD-PARTY-NOTICES.TXT",
+      "Bytes": 75640,
+      "SHA256": "40686C6447A7D5B5D3693068E4571B5F483D7ED335AEEE773EF662440DE4C5D5"
+    },
+    {
+      "Path": "Source/ReleaseLicences/FFmpeg/BUILD-INFO.txt",
+      "Bytes": 2037,
+      "SHA256": "55EF0764224222C4B07F6FE6AB848B11A9B0FD8C001DB967F550680178128D86"
+    },
+    {
+      "Path": "Source/ReleaseLicences/FFmpeg/COPYING.GPLv3",
+      "Bytes": 35147,
+      "SHA256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903"
+    },
+    {
+      "Path": "Source/ReleaseLicences/FFmpeg/COPYING.LGPLv3",
+      "Bytes": 7651,
+      "SHA256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768"
+    },
+    {
+      "Path": "Source/ReleaseLicences/IPNetwork2-2.1.2.txt",
+      "Bytes": 1293,
+      "SHA256": "3008CD3226731B919830BB984856FF5F19F3BEB1BFF2AB062A07B4FB21965FEB"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Makaretu-Dns-2.0.1.txt",
+      "Bytes": 1074,
+      "SHA256": "37920E72B0C28AA74AD0EB9B37814A69D44614EB1991C0F1CD7E6CAAD735D7AD"
+    },
+    {
+      "Path": "Source/ReleaseLicences/Makaretu-Dns-Multicast-0.27.0.txt",
+      "Bytes": 1074,
+      "SHA256": "37920E72B0C28AA74AD0EB9B37814A69D44614EB1991C0F1CD7E6CAAD735D7AD"
+    },
+    {
+      "Path": "Source/ReleaseLicences/NXRemotePlay-GPL-2.0.txt",
+      "Bytes": 18431,
+      "SHA256": "189B1AF95D661151E054CEA10C91B3D754E4DE4D3FECFB074C1FB29476F7167B"
+    },
+    {
+      "Path": "Source/ReleaseLicences/QRCoder-1.6.0.txt",
+      "Bytes": 1088,
+      "SHA256": "044BD5EEEE412A603A6E2B6201C7256DA386788AAA4392BE9870A5E899ADEA05"
+    },
+    {
+      "Path": "Source/ReleaseLicences/SIPSorcery-10.0.16.txt",
+      "Bytes": 30082,
+      "SHA256": "6675C4A1E6ECDA95CFC1D55540D264A08EBB61EF3EC5C0DFA2076D112F60C042"
+    },
+    {
+      "Path": "Source/ReleaseLicences/SIPSorceryMedia-Abstractions-10.0.16.txt",
+      "Bytes": 30082,
+      "SHA256": "6675C4A1E6ECDA95CFC1D55540D264A08EBB61EF3EC5C0DFA2076D112F60C042"
+    },
+    {
+      "Path": "Source/ReleaseSupport/LICENSE.txt",
+      "Bytes": 970747,
+      "SHA256": "7356DC218CD9EBA2642AD3649198D4F3BD3BD4B5A5BE2DE2FD13AF94ABF7C3F5"
+    },
+    {
+      "Path": "Source/ReleaseSupport/PRIVACY-AND-CONNECTIONS.txt",
+      "Bytes": 3185,
+      "SHA256": "3FC8F3892DBEE4A85B50FC0EDD26A2D9FF27750C0706A5784D9A284C3D1FC374"
+    },
+    {
+      "Path": "Source/ReleaseSupport/README.txt",
+      "Bytes": 2695,
+      "SHA256": "BB1545EBFD9A7CD54C3A2A6EE722ECEBB15BFF08C4CF713524E0F63485B2AD93"
+    },
+    {
+      "Path": "Source/ReleaseSupport/Switch SD Card Files/atmosphere/contents/4E5852656D6F7465/flags/boot2.flag",
+      "Bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "Source/ReleaseSupport/Switch SD Card Files/atmosphere/exefs_patches/am/0163E6B41B7F5A38437978BF6215A56539511470000000000000000000000000.ips",
+      "Bytes": 191,
+      "SHA256": "19A561A8A35C108DBBBBFC4891A357575C076D15D59CE7F9325FAC2008370172"
+    },
+    {
+      "Path": "Source/ReleaseSupport/Switch SD Card Files/atmosphere/exefs_patches/am/93C0B7CC723C922159DD6E1FF4BD2C7C1E08E736000000000000000000000000.ips",
+      "Bytes": 201,
+      "SHA256": "B69B2063F949B77E0AAFC82ACC43756F9438F33E8D2F96E02D617ED7F53DD5CF"
+    },
+    {
+      "Path": "Source/ReleaseSupport/Switch SD Card Files/atmosphere/exefs_patches/am/A8069068BE60FC5C27943C565A3C62F166ABF691000000000000000000000000.ips",
+      "Bytes": 206,
+      "SHA256": "0479D0BD8382F7C9435468DB885276167B922B0083B25B101E91AA5CEC21F7B4"
+    },
+    {
+      "Path": "Source/ReleaseSupport/Switch SD Card Files/atmosphere/exefs_patches/am/B337F7C5AD53E55F3D920FCD394B4DE7C3B7D606000000000000000000000000.ips",
+      "Bytes": 206,
+      "SHA256": "E554C2C97537CBC75CD333F476F96FC1960B46B2EF94099DA1AA422F8BB442F3"
+    },
+    {
+      "Path": "Source/Rendezvous/AcmeIpCertificate.cs",
+      "Bytes": 12281,
+      "SHA256": "0CA40F9C0D8E6017EBA905D55EE3468ACAD27B1526D04DD42B6683348BC8B40A"
+    },
+    {
+      "Path": "Source/Rendezvous/AddressDetection.cs",
+      "Bytes": 1885,
+      "SHA256": "B5E786FD427E853DD119D2B2AD6244E11F5999C4A4290711FFA959C1E19BD62D"
+    },
+    {
+      "Path": "Source/Rendezvous/AssemblyInfo.cs",
+      "Bytes": 144,
+      "SHA256": "8C2F165A96B3B0A3BBA1817D890766E5F7D172C7DE1C7523CE345C0E97BE80A1"
+    },
+    {
+      "Path": "Source/Rendezvous/BridgePunchTickets.cs",
+      "Bytes": 1360,
+      "SHA256": "A7E7518ADD6644D8559C081D692241F955FFFB0B6120CB7D17085782785293DA"
+    },
+    {
+      "Path": "Source/Rendezvous/BridgeRtcBroker.cs",
+      "Bytes": 12110,
+      "SHA256": "A8256D8FFFEAECB08B01C05E023FB23A632B9711C0870E19E7681F7B935AFDB7"
+    },
+    {
+      "Path": "Source/Rendezvous/BridgeSignalingServer.cs",
+      "Bytes": 11220,
+      "SHA256": "F85977432066BFD884850A871AFA76DC903306504155886814569C3F6806E6EC"
+    },
+    {
+      "Path": "Source/Rendezvous/DefaultServerSetup.cs",
+      "Bytes": 1296,
+      "SHA256": "07D0C471FF8F32079035EA102CA3191B392FC7A2988DF38D83A162A4DAA00BF5"
+    },
+    {
+      "Path": "Source/Rendezvous/DesktopBrowserServer.cs",
+      "Bytes": 8528,
+      "SHA256": "38643202218C5046B8C45E7C125F19DC1D03F262F10A23B81300FB1B7DD71C12"
+    },
+    {
+      "Path": "Source/Rendezvous/DirectOwnerWire.cs",
+      "Bytes": 6361,
+      "SHA256": "A70DD20DC71B54BB8554AB369B9BCDAE89E94946504E88EA858B1880629075CA"
+    },
+    {
+      "Path": "Source/Rendezvous/HostOwnership.cs",
+      "Bytes": 16948,
+      "SHA256": "98BFBEF165696FB181732DBB326E80A9B9C151ADF500A67BB7940028B58CCE25"
+    },
+    {
+      "Path": "Source/Rendezvous/NativeOwnerService.cs",
+      "Bytes": 3765,
+      "SHA256": "CBD5098863557F069DA00DAF927286CE9EBD7C4A74ECE39C0D54AC0B70FADEE3"
+    },
+    {
+      "Path": "Source/Rendezvous/OwnerEnrollmentService.cs",
+      "Bytes": 3049,
+      "SHA256": "D95E6EEBEEE027962527F9EF7D235E887079A354667E78C9B60B77285446DF56"
+    },
+    {
+      "Path": "Source/Rendezvous/P2pIceConfiguration.cs",
+      "Bytes": 1317,
+      "SHA256": "D2AD9D1BA03CC18D33F3732F55BE938EDA3686657B0A8B69516FBF21D63E68BA"
+    },
+    {
+      "Path": "Source/Rendezvous/Program.cs",
+      "Bytes": 4094,
+      "SHA256": "8960F4D2C342EEA7BA0390E06EB52920E5EA61F64D380AC309ACC1D73238E3EA"
+    },
+    {
+      "Path": "Source/Rendezvous/RateLimiter.cs",
+      "Bytes": 1478,
+      "SHA256": "3EBD93F0E9DE2E3DB17B274906899130794C4043CB84AA9134973D4D391F5AB5"
+    },
+    {
+      "Path": "Source/Rendezvous/Rendezvous.csproj",
+      "Bytes": 1225,
+      "SHA256": "F867EF4F202BC6778D29997577A114C602CD3BB73AF3127FA1C6553CCFB28EDA"
+    },
+    {
+      "Path": "Source/Rendezvous/RendezvousServer.cs",
+      "Bytes": 29511,
+      "SHA256": "0FCCF01878FC806FE6FE8D14BE1C8BB4569437426B112800A42AD3196A20F0FC"
+    },
+    {
+      "Path": "Source/Rendezvous/StunBinding.cs",
+      "Bytes": 3554,
+      "SHA256": "5B90B55E41830138D0A3348D02870E9601A2B253A2847B4B76C1DAD2C32F74EC"
+    },
+    {
+      "Path": "Source/Rendezvous/TrustedEnrollment.cs",
+      "Bytes": 858,
+      "SHA256": "FF94058E7CB8C3A3D78BF7A894916052DAC8B799467D144D2F3CB2769037E831"
+    },
+    {
+      "Path": "Source/Rendezvous/UdpMediaRendezvous.cs",
+      "Bytes": 2629,
+      "SHA256": "F51E378710840BC634B6625B388098FF94E7D275CB76276AFCE2F44E904D64DE"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/app.css",
+      "Bytes": 19932,
+      "SHA256": "30B4C3140746A2D4F41FA508DD68C48C737417F566BBC179C8971E8703BAC6FE"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/app.js",
+      "Bytes": 52946,
+      "SHA256": "0DAF40C2BC0159E33E75FFA90173C1A21E477E9248CB83BFDD2878E610B16972"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/assets/app_logo.png",
+      "Bytes": 9203,
+      "SHA256": "6921D4544305449BAC77665A10B04EA7F04A9ECFAA29E5042231BD617FDA407B"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/assets/apple-touch-icon.png",
+      "Bytes": 7853,
+      "SHA256": "ABA74612470D4142A19392DBBA97DD4EE303D1A8E1886991F8F8DA0239C7A1AE"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/assets/Baloo2-ExtraBold.ttf",
+      "Bytes": 421800,
+      "SHA256": "EDB8730B405C39FA584CBB458215025D0961F257FC4B2C337AD82237ED7802FC"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/assets/Baloo2-OFL.txt",
+      "Bytes": 4384,
+      "SHA256": "AD09B05DC8BC678C9DAF7C4C5F7EF1F55E5726127F4330B2E98E40B9DFFCB860"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/assets/icon-192.png",
+      "Bytes": 8298,
+      "SHA256": "5EFDA3777B13B88C90CE72C82CDDC3C1D8A5073BFD7EC55AF3A4D55DDF74D3AD"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/assets/icon-512.png",
+      "Bytes": 29423,
+      "SHA256": "85BE0A50C9E3B02C631F980ECD3FDA7CAAB01C8EF1812444A042795AA4D053D1"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/assets/icon-maskable-512.png",
+      "Bytes": 20619,
+      "SHA256": "876D6C25FEEA323856F4F84B92FE30C5E913A613FD260EB118EE94B23C4787BA"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/assets/LICENSE-FSR1.txt",
+      "Bytes": 1481,
+      "SHA256": "06ED516E4C28021BBF6B473BFC2DF20AF05AE49E3C8CD409AD282B46CBC3BE5D"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/controller.js",
+      "Bytes": 13505,
+      "SHA256": "5D277F29047885F598A38160CF49B5B83BB68314ABFC2EBB226D6CE4AAE5CFF2"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/fsr.js",
+      "Bytes": 110750,
+      "SHA256": "ACF07C076880E9DF65661C431B68F377CC410BE95CD519DE8D20350ED28FF8EC"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/index.html",
+      "Bytes": 11713,
+      "SHA256": "CB35BDCCC460AEBFF9F63BC94632EDAB47FF4AE142E809AF8802641044ABAC5C"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/manifest.webmanifest",
+      "Bytes": 677,
+      "SHA256": "1917C1F28D1B1D1E0D193F216A595866FB9D2226404D3FE1177669216B139B0E"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/sw.js",
+      "Bytes": 501,
+      "SHA256": "9B289896FB52F696AAFD57885EFF1A5479C03B3387778AE4C3E6FF1553AFC308"
+    },
+    {
+      "Path": "Source/Rendezvous/Web/upscale.js",
+      "Bytes": 16297,
+      "SHA256": "BEA60EF4E692C2CC3C4CF418678FD0CD3203D5EBA307BBF5ADD50338323676D8"
+    },
+    {
+      "Path": "Source/Rendezvous.Embedded/Rendezvous.Embedded.csproj",
+      "Bytes": 1147,
+      "SHA256": "E9990C7B53499980C205D828E2C456BECF91C899A0EA54F76DE5EA63EA421EE5"
+    },
+    {
+      "Path": "Source/Shared/BridgeMessages.cs",
+      "Bytes": 5958,
+      "SHA256": "82E87251A370F9EDB26961A6D46E488027197999D3398C873EE0A45A5144219D"
+    },
+    {
+      "Path": "Source/Shared/BrowserJoinLink.cs",
+      "Bytes": 1535,
+      "SHA256": "574B1756B11FF339A6A510155D2F667D8F62FDF2A001437929F6322EC04CD628"
+    },
+    {
+      "Path": "Source/Shared/OwnerEnrollmentProtocol.cs",
+      "Bytes": 13002,
+      "SHA256": "93727943D03427007199F5156A353B0F8E5CE55A9F706519856E6E04B421831B"
+    },
+    {
+      "Path": "Source/Shared/OwnerProofBytes.cs",
+      "Bytes": 1946,
+      "SHA256": "7A0D0AA3D623CA6F13C108A9C1C3C00E8BEE3E24D7E10CBECB220F526D9E9D64"
+    },
+    {
+      "Path": "Source/Shared/ViewerLimits.cs",
+      "Bytes": 501,
+      "SHA256": "AECBDB78CD284A7155AC256C656F10691C59D9C5FBCEBCD454CB0533E1DDC461"
+    },
+    {
+      "Path": "Source/VirtualCamera/nxcam.cpp",
+      "Bytes": 41927,
+      "SHA256": "76CEBFD77977748ABE5550A49AC2577E9A36409D78A5A85BDEB616400E793CFC"
+    },
+    {
+      "Path": "Source/VirtualCamera/nxcam.def",
+      "Bytes": 175,
+      "SHA256": "864820552746541E48874EA18DADB1058436F863EBFB34763931C6BF69CEC14F"
+    },
+    {
+      "Path": "Source/VirtualCamera/nxcam_shared.h",
+      "Bytes": 1842,
+      "SHA256": "317F9FEF9174E47FC26A64F753D87261DD3BD7A2DEC8F258DD9D805FD1F7CB4D"
+    }
+  ]
+}

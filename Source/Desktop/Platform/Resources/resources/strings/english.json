@@ -1,0 +1,17 @@
+{
+  "general": {
+    "placeholderSerial": "(serial hidden)"
+  },
+  "player": {
+    "playerInitializationMessage": "Initializing video player with {0} codec."
+  },
+  "errors": {
+    "settingsPathMissing": "Couldn\u0027t find a valid path to store settings",
+    "versionTroubleshooting": "Make sure to use the same version on both your PC and console, you may need to reboot your console.",
+    "consoleRejectWrongVersion": "Your console rejected the connection because it is running a different NX-Remote-Play version.",
+    "initialPacketError": "Error initiating communication, your console may be on an incompatible NX-Remote-Play version.",
+    "initialPacketWrongVersion": "Your console reports to be using an incompatible NX-Remote-Play version.",
+    "usbResetMessage": "USB warning: Couldn\u0027t communicate with the console ({0}). Resetting the connection...",
+    "usbTimeoutError": "USB warning: Couldn\u0027t communicate with the console. Try entering a compatible game, unplugging your console or restarting it."
+  }
+}

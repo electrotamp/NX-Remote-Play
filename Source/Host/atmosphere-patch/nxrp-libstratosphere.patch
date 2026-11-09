@@ -1,0 +1,38 @@
+diff --git a/libraries/libstratosphere/include/stratosphere/sf/impl/sf_impl_command_serialization.hpp b/libraries/libstratosphere/include/stratosphere/sf/impl/sf_impl_command_serialization.hpp
+index c91d4480..948b9a92 100644
+--- a/libraries/libstratosphere/include/stratosphere/sf/impl/sf_impl_command_serialization.hpp
++++ b/libraries/libstratosphere/include/stratosphere/sf/impl/sf_impl_command_serialization.hpp
+@@ -27,6 +27,13 @@
+ #include <stratosphere/sf/hipc/sf_hipc_api.hpp>
+ #include <stratosphere/sf/hipc/sf_hipc_server_session_manager.hpp>
+ 
++/* --- NX-Remote-Play patch: non-domain mitm sub-object forwarding side channel --- */
++#if AMS_SF_MITM_SUPPORTED
++#include <memory>
++namespace ams::sf::impl { inline thread_local ::std::shared_ptr<::Service> g_nxrp_pending_mitm_forward{}; }
++#endif
++namespace ams::sf::impl { inline ::ams::Result (*g_nxrp_create_session)(::ams::os::NativeHandle *, ::ams::os::NativeHandle *) = nullptr; }
++
+ /* Serialization classes. */
+ namespace ams::sf {
+ 
+@@ -871,8 +878,17 @@ namespace ams::sf::impl {
+                     return;
+                 }
+                 os::NativeHandle server_handle, client_handle;
+-                R_ABORT_UNLESS(sf::hipc::CreateSession(std::addressof(server_handle), std::addressof(client_handle)));
+-                R_ABORT_UNLESS(manager->RegisterSession(server_handle, std::move(object)));
++                if (::ams::sf::impl::g_nxrp_create_session == nullptr || R_FAILED(::ams::sf::impl::g_nxrp_create_session(std::addressof(server_handle), std::addressof(client_handle)))) {
++                    R_ABORT_UNLESS(sf::hipc::CreateSession(std::addressof(server_handle), std::addressof(client_handle)));
++                }
++#if AMS_SF_MITM_SUPPORTED
++                if (auto _nxrp_fwd = std::move(::ams::sf::impl::g_nxrp_pending_mitm_forward); _nxrp_fwd != nullptr) {
++                    R_ABORT_UNLESS(manager->RegisterMitmSession(server_handle, std::move(object), std::move(_nxrp_fwd)));
++                } else
++#endif
++                {
++                    R_ABORT_UNLESS(manager->RegisterSession(server_handle, std::move(object)));
++                }
+                 response.move_handles[Index] = client_handle;
+             }
+ 

@@ -1,0 +1,85 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup><ProjectReference Include="../Rendezvous.Embedded/Rendezvous.Embedded.csproj" GlobalPropertiesToRemove="AssemblyName;GitRoot" /></ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Platforms>AnyCPU</Platforms>
+		<AssemblyName>NX-Remote-Play</AssemblyName>
+		<Description>https://nxremoteplay.com</Description>
+		<Authors>NX-Remote-Play</Authors>
+		<Product>NX Remote Play</Product>
+		<AssemblyTitle>NX Remote Play</AssemblyTitle>
+		<Company />
+		<PackageProjectUrl>https://nxremoteplay.com</PackageProjectUrl>
+		<RepositoryUrl>https://nxremoteplay.com</RepositoryUrl>
+		<RootNamespace>NxRemotePlay.Client</RootNamespace>
+		<ApplicationIcon>Client.ico</ApplicationIcon>
+		<RollForward>Major</RollForward>
+		<Nullable>annotations</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<!-- Avoid AOT because some antimalware products flag those builds. -->
+		<PublishAot>false</PublishAot>
+		<PublishTrimmed>true</PublishTrimmed>
+		<OutputType>Exe</OutputType>
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+	</PropertyGroup>
+
+	<!-- The release version comes from release_version.txt; GitInfo supplies optional commit metadata. -->
+	<!--The displayed version is always set manually and GitInfo provides the commit number-->
+	<!--Update the release_version.txt file to set the version-->
+	<PropertyGroup>
+		<GitVersion>false</GitVersion>
+		<GitIgnoreBranchVersion>true</GitIgnoreBranchVersion>
+		<GitIgnoreTagVersion>true</GitIgnoreTagVersion>
+		<GitVersionFile>release_version.txt</GitVersionFile>
+	</PropertyGroup>
+
+	<Target Name="PopulateInfo" DependsOnTargets="GitVersion" BeforeTargets="GetAssemblyVersion;GenerateNuspec;GetPackageContents">
+		<PropertyGroup>
+			<PackageVersion>1.0.0-beta.1</PackageVersion>
+			<Version>$(PackageVersion)</Version>
+            <InformationalVersion>1.0.0-beta.1</InformationalVersion>
+			<RepositoryBranch>$(GitBranch)</RepositoryBranch>
+			<RepositoryCommit>$(GitCommit)</RepositoryCommit>
+		</PropertyGroup>
+	</Target>
+	
+	<PropertyGroup Condition="'$(Configuration)' == 'Release'">
+		<OutputType>WinExe</OutputType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<Optimize>false</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DefineConstants>$(DefineConstants);NETSTANDARD2_1_OR_GREATER;NETSTANDARD2;NETSTANDARD2_0;NETSTANDARD2_1</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ContentWithTargetPath Include="$(ProjectDir)\Platform\Resources\**">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<TargetPath>runtimes\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+		</ContentWithTargetPath>
+		<EmbeddedResource Include="ThirdParty\fsr1\*.glsl" LogicalName="fsr1.%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="GitInfo" Version="3.3.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="QRCoder" Version="1.6.0" />
+		<PackageReference Include="SIPSorcery" Version="10.0.16" />
+		<PackageReference Include="System.Text.Json" Version="9.0.0" />
+	</ItemGroup>
+
+	<!-- Local Windows fix; preserve the original vendored dependency source. -->
+	<ItemGroup>
+		<Compile Remove="ThirdParty\LibUsbDotNet\LibUsb\UsbContext.cs" />
+	</ItemGroup>
+</Project>
