@@ -226,9 +226,57 @@ See the [setup guide](https://nxremoteplay.com/demo/guide.html) for everyday use
 | Public link fails outside the home | Check the PC’s firewall, router ports and whether the internet provider allows incoming connections. |
 | Picture stutters or falls behind | Compare with USB playback or a stronger network connection. Change one setting at a time and collect logs from both devices. |
 
-For a bug report, include app versions, Switch firmware, your other device, connection type and what happened. Use **Export logs** in the apps and review the files for private information before attaching them.
+### Collect logs and report a problem
 
-[Troubleshooting and log-export instructions →](https://nxremoteplay.com/wiki/help.html)
+Try to export logs soon after the problem happens. Note the time and time zone, what you were doing, and whether you were using USB, a local network, the internet or Windows Bridge Mode. Do not clear app data or repeat lots of tests before saving the files.
+
+Collect logs from the **Switch running the game and the device you played on**. For browser play, include logs from all three: the **Switch, the Windows PC sharing it, and the browser**. Each export only collects that device’s logs. For Switch-to-Switch play, export on both consoles and label copies of the files **host** and **receiver**.
+
+#### Switch
+
+1. Open NX Remote Play on the console, then **Settings → Actions → Export logs**.
+2. Choose **Create log file** and wait for **Saved to the SD card root.**
+3. Copy **`NX-Remote-Play-logs.txt`** from the SD card root to the device you will use to report the issue. You can use an existing file-transfer setup, or fully shut down the Switch before removing the SD card and reading it on a computer.
+
+Each export replaces that file. Keep a separate copy before exporting another test.
+
+#### Windows
+
+1. Reproduce the problem, then disconnect or stop the stream, but keep NX Remote Play open. Some diagnostic files cannot be included while they are still being written.
+2. Open **Settings → Diagnostics & Logging → Export logs**.
+3. The app opens its Diagnostics folder. Keep the new **`NX-Remote-Play-desktop-logs-YYYYMMDD-HHMMSS.zip`**.
+
+If you need to find it again, paste **`%LOCALAPPDATA%\NX-Remote-Play\Diagnostics`** into File Explorer’s address bar. Attach the ZIP, not just a screenshot of the folder.
+
+#### Android, Android TV and Google TV
+
+1. After the problem, exit the streaming session and return to the app’s start screen.
+2. Open **Settings → About → Export logs** and wait for **Logs saved to Downloads/NX-Remote-Play**.
+3. Use your device’s file manager to open **Downloads → NX-Remote-Play** and find **`NX-Remote-Play-logs-export-<timestamp>.zip`**. On a TV, copy the ZIP to a phone or computer using your usual file-transfer method.
+
+Ending a session or a failed connection can also save a diagnostic ZIP automatically: **`NX-Remote-Play-logs-<session-timestamp>.zip`** for a session, or **`NX-Remote-Play-logs-join-failed-<timestamp>.zip`** for a failed join. They are saved in the same folder. Use a file from the attempt you are reporting; check its date and time.
+
+**Log export requires Android 10 or newer.** On Android 7–9, the app keeps private logs but cannot export them through this feature. Include your Android version and attach the Switch and any other available device logs instead.
+
+#### Browser, including Safari on iPhone and iPad
+
+1. Export **before refreshing or closing the player**: browser logs are held in that page and are lost when it closes or reloads.
+2. Open **☰ Menu → Export logs**. If joining failed, use **Export logs** on the join screen instead.
+3. Save **`NX-Remote-Play-web-log-YYYYMMDD-HHMMSS.txt`** (UTC) through the browser’s download or share prompt. On iPhone or iPad, choose **Save to Files** if offered and note the folder you select.
+
+Also export the Windows PC’s ZIP and the host Switch’s text file for that same attempt.
+
+#### Attach the files to a GitHub issue
+
+**Review the files before attaching them.** Open ZIPs and check the text files inside for passwords, Session IDs, private sharing links, addresses or other details you do not want public. Redact private details in a copy. Do not attach your whole SD card, settings/configuration folders or owner keys. GitHub issues and uploaded attachments can be viewed by other people; files upload as soon as you attach them.
+
+1. Sign in to GitHub and open **[NX Remote Play Issues](https://github.com/electrotamp/NX-Remote-Play/issues)**. Check whether someone has already reported the same problem.
+2. Choose **New issue**, or add a comment to the existing matching issue. Use a title that describes the problem, such as “Android picture freezes after returning to HOME”.
+3. Include the app/release versions, Switch model and firmware, receiving device and operating-system version, connection type, and the time/time zone of the problem. Describe how to reproduce it, what you expected and what happened instead. Label which log came from each device.
+4. Drag the reviewed **ZIP or TXT files** into the issue description/comment box, or use the attachment control below it to select them. On a phone, use the file picker to select the saved files. Wait until each upload finishes and its attachment link appears in the text.
+5. Submit the issue or comment. Keep your original exports in case more details are needed. If export itself failed, include the exact error and whichever other logs you could collect.
+
+[Troubleshooting and log-export instructions →](https://nxremoteplay.com/wiki/help.html#logs)
 
 ---
 
