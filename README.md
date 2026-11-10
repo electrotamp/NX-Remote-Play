@@ -29,7 +29,7 @@ NX Remote Play lets you play your Nintendo Switch on another screen, with sound 
 Play on Windows, Android, Android TV, Google TV or another Switch. Browser play, including Safari on iPhone and iPad, uses a Windows PC connected to the Switch by USB.
 
 > [!IMPORTANT]
-> **The Switch running the game must have custom firmware and homebrew support.** The project is in beta, and compatibility is still being tested.
+> **The Switch running the game must have custom firmware and homebrew support.** The project is in beta, and compatibility is still being tested. It has only been tested on Switch firmware **23.0.1** with **Atmosphère 1.12.1**.
 
 <p align="center">
   <strong>On this page</strong><br>
@@ -73,7 +73,7 @@ Join the [Discord server](https://discord.gg/cMzfzqqFQj) to chat about NX Remote
 
 ## ✅ What you need
 
-- A Switch or Switch Lite running custom firmware with homebrew support.
+- A Switch or Switch Lite running custom firmware with homebrew support. **Tested firmware:** only Switch firmware 23.0.1 with Atmosphère 1.12.1, on a Switch Lite and a regular Switch. Other firmware versions may not work, especially the streaming patches.
 - A device to play on, from the table below.
 - A controller for Windows or TV, or your device’s built-in controls. Android and browser players also offer touch buttons.
 - A USB cable that carries data if you want to connect the Switch to a Windows PC.
@@ -110,7 +110,7 @@ Use matching versions on all devices. Read the package’s installation and priv
 
 ### Step 2: Set up the Switch
 
-1. Back up the SD card and check the release’s firmware requirements.
+1. Back up the SD card and check the [tested firmware](#-what-you-need).
 2. Copy everything **inside** `Switch SD Card Files` to the SD card root.
 3. Restart into custom firmware so the background host and system patches can load.
 

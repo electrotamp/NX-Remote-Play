@@ -1,6 +1,6 @@
 NX-Remote-Play 1.0.0-beta.1 - first beta
 
-This is the first beta of NX-Remote-Play. It has been tried on a Switch Lite and a regular Switch, an Android phone, Windows and web browsers, but not on every device, firmware version or network. Expect rough edges. Every app has an Export logs button to help with a problem report (see PRIVACY-AND-CONNECTIONS.txt).
+This is the first beta of NX-Remote-Play. It has been tried on a Switch Lite and a regular Switch, an Android phone, Windows and web browsers, but not on every device, firmware version or network. Tested firmware: only Switch firmware 23.0.1 with Atmosphere 1.12.1; other firmware versions may not work, especially the streaming patches. Expect rough edges. Every app has an Export logs button to help with a problem report (see PRIVACY-AND-CONNECTIONS.txt).
 
 What this release is: the first beta of the clients and the Switch host only. That means the Switch host (sysmodule), the Switch receiver (NRO), the Android app and the Windows desktop app, which also does browser play and the USB bridge. The rendezvous server is not part of this release and no server programs are included: the apps use the default service play.nxremoteplay.com:7921, and Settings lets you pick another server. The server source is in the source repository.
 

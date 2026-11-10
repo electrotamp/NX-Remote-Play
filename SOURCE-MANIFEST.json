@@ -23,8 +23,8 @@
     },
     {
       "Path": "README.md",
-      "Bytes": 23291,
-      "SHA256": "66FF0A2A64AB138EFB74656D29E850A0772F899FEEDE8042E6781C5B9D87DCD5"
+      "Bytes": 23560,
+      "SHA256": "74BDF16A5B0D61A63F11CF9C092117D32EDB43A1992DDFC07CF887B195E430E9"
     },
     {
       "Path": "Source/Android/app/build.gradle",
@@ -3013,8 +3013,8 @@
     },
     {
       "Path": "Source/ReleaseSupport/README.txt",
-      "Bytes": 2695,
-      "SHA256": "BB1545EBFD9A7CD54C3A2A6EE722ECEBB15BFF08C4CF713524E0F63485B2AD93"
+      "Bytes": 2836,
+      "SHA256": "F96DDCDE39D5EE78683404863878EDF6C13466FAE546493E9A515E958EB1110B"
     },
     {
       "Path": "Source/ReleaseSupport/Switch SD Card Files/atmosphere/contents/4E5852656D6F7465/flags/boot2.flag",
