@@ -18,6 +18,7 @@
   <a href="https://github.com/ElectroTamp/NX-Remote-Play/releases"><strong>Downloads</strong></a> ·
   <a href="https://nxremoteplay.com/demo/guide.html"><strong>Setup guide</strong></a> ·
   <a href="https://nxremoteplay.com/wiki/"><strong>Wiki</strong></a> ·
+  <a href="https://discord.gg/cMzfzqqFQj"><strong>Discord</strong></a> ·
   <a href="https://github.com/ElectroTamp/NX-Remote-Play/issues"><strong>Report an issue</strong></a>
 </p>
 
@@ -32,6 +33,7 @@ Play on Windows, Android, Android TV, Google TV or another Switch. Browser play,
 
 <p align="center">
   <strong>On this page</strong><br>
+  <a href="#discord-and-personal-demos">Discord and demos</a> ·
   <a href="#-what-you-need">Requirements</a> ·
   <a href="#-getting-started">Setup</a> ·
   <a href="#-sharing-through-a-windows-pc">Sharing</a> ·
@@ -40,6 +42,12 @@ Play on Windows, Android, Android TV, Google TV or another Switch. Browser play,
   <a href="#-known-bugs">Known bugs</a> ·
   <a href="#-for-developers">Building</a>
 </p>
+
+---
+
+## Discord and personal demos
+
+Join the [Discord server](https://discord.gg/cMzfzqqFQj) to chat about NX Remote Play, find people to play with, or request a personal demo with me. We can arrange a time there.
 
 ---
 
